@@ -10,15 +10,15 @@
 #### Connection：创建了Python客户端与数据库之间的网络通路
 #### 4.获取Cursor
 #### Cursor:游标对象，用于执行查询和获取结果
-* 例如:*
- `import MySQLdb`    
+ 例如: 
+ `import MySQLdb`
  `conn=MySQLdb.connect(host='localhost',port=3306,user='root',passwd='mysql',db='lms',charset='utf8')` 
  `cursor=conn.cursor()`  
     `print(conn)`  
     `print(cursor) ` 
  `cursor.close()`  
  `conn.close()`
-* 运行结果如下:* 
+* 运行结果如下:*
  ![Iamge text](https://github.com/gorgeousCa/Dayup/blob/master/MySQL/20190303211447.png)
 
 
