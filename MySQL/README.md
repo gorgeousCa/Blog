@@ -32,12 +32,12 @@
   stuid int(11) PRIMARY KEY ,  
   stuname VARCHAR(20)  
 )`  
-`""")  
-for i in range(1,10):  
-    cur.execute("insert into student1(stuid,stuname ) values('%d','%s')" %(int(i),'name'+str(i)))  
-conn.commit()  
-cur.close()  
-conn.close()`  
+`""")`  
+`for i in range(1,10):`  
+   `cur.execute("insert into student1(stuid,stuname ) values('%d','%s')" %(int(i),'name'+str(i)))`
+`conn.commit()` 
+`cur.close()`  
+`conn.close()`  
 
  
  
