@@ -25,7 +25,7 @@
 ## 结果：
 ![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/test00.png)  
 ## 用QQ扫一扫，得到我们words的值：you are the appple in my eyes
-![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/test10.png)
+![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/ap.png)
 
 
 
