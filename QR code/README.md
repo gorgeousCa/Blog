@@ -37,7 +37,7 @@
 ## 扫描结果：
 ![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/bd1.png)
 ## 至此，我们就为百度的二维码，扫描即可进入新浪财经官方网站，是不是很简单呢？下面我们附上参数列表及含义。
-##
+![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/tp.png)
 
 
 
