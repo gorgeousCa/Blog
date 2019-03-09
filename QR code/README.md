@@ -26,6 +26,15 @@
 ![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/test00.png)  
 ## 用QQ扫一扫，得到我们words的值：you are the appple in my eyes
 ![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/ap.png)
+## 当然了，我们可以把words换成网页
+## 如：  
+`words='https://www.baidu.com/'#url`
+`picture='WChat.png',#想要合成的照片`
+`colorized=True, '# 使变成彩色`
+## 结果：
+![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/test01.png)
+
+
 
 
 
