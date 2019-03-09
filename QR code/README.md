@@ -28,9 +28,9 @@
 ![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/ap.png)
 ## 当然了，我们可以把words换成网页
 ## 如：  
-`words='https://www.baidu.com/'#url`
-`picture='WChat.png',#想要合成的照片`
-`colorized=True, '# 使变成彩色`
+`words='https://www.baidu.com/'#url`  
+`picture='WChat.png',#想要合成的照片`  
+`colorized=True, '# 使变成彩色`  
 ## 结果：
 ![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/test01.png)
 
