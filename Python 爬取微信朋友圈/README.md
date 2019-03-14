@@ -46,8 +46,7 @@ android-sdk环境变量
     2.打开cmd输入：adb devices,当屏幕上出现一串字符，后面显示devices说明连接成功（出现其它的提示，得检查自己的环境了）  
 ## 六、Python安装
 2.下载Python安装包，选择2.7版本和3.6版本都可以
-
-官网下载地址：https://www.python.org/15
+  官网下载地址：https://www.python.org/15
 
     1.Python安装，双击傻瓜式安装（别安装在c盘哦）
 
