@@ -1,19 +1,13 @@
 # python爬取微信朋友圈
 ## 一、环境准备
     1.jdk1.7.0 
-
     2.android-sdk_r24.3.4-windows
-
     3.python:3.6
-
     4.appium：1.4.13.1
-
     5.Node.js：node-v4.4.7-x64
-
     6.Appium-Python-Client
 ## 二、jdk安装
     1.下载jdk包，我的是64位1.7版本。
-
     2.一路傻瓜式安装，注意安装路径不要有空格，不要有中文。jdk和jre不要放在一个文件夹下  
     3.设置三个环境变量,我的电脑>选择“属性”->“高级”->“环境变量”->“系统变量”->“新建”    
     JAVA_HOME----D:\Java\jdk1.6.0” （根据自己安装路径填写）     
@@ -46,15 +40,10 @@
 ## 六、Python安装
     1.下载Python安装包，选择2.7版本和3.6版本都可以
     官网下载地址：https://www.python.org/15
-
     1.Python安装，双击傻瓜式安装（别安装在c盘哦）
-
     2.小编的安装目录在d盘：D:\python
-
     3.安装完成后，看下这个目录D:\python\Scripts，有没pip.exe和easy_install.exe（一般都有）
-
     4.将D:\python和D:\python\Scripts，添加到环境变量path下
-
     5.打开cmd输入python,出现版本号，然后输入print("hello world!")
   ## 七、安装node.js
     1.下载官网地址：https://nodejs.org/en/download/23
@@ -66,11 +55,8 @@
   ## 九、安装.net framework
       1.Appium是用.net开发的，所以需要安装.net framework4.5，下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=3065332
  ## 十、appium-doctor
-
     1.appium安装好后，找到这个文件目录D:\appium\Appium\node_modules\.bin
-
     2.将上面的地址添加到环境变量path下
-
     3.打卡cmd，输入appium-doctor,检查环境是否OK，出现如下图所示，说明环境OK
   ## 十一、安装Appium-Python-Client
     1.前面python环境安装，已经准备好pip了，所以这里直接打开cmd，输入：pip install Appium-Python-Client
