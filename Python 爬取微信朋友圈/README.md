@@ -24,10 +24,10 @@
     能显示版本号和下面的帮助信息说明安装成功
     如下图：
 ## 三、安卓开发环境配置
-如果我们要使用Android设备做App抓取的话，还需要下载和配置Android SDK，这里我们直接下载Android Studio。下载后直接安装即可。  
-确保在安装 Android Studio 之前，已经安装好 Java JDK。  
+  如果我们要使用Android设备做App抓取的话，还需要下载和配置Android SDK，这里我们直接下载Android Studio。下载后直接安装即可。    
+确保在安装 Android Studio 之前，已经安装好 Java JDK。    
 以下图片为 Android SDK 初始化 JDK  
-检查创建应用程序所需的组件，下图选中了 "Android Studio", "Android SDK", "Android 虚拟机"和"外观(Intel chip)"。    
+检查创建应用程序所需的组件，下图选中了 "Android Studio", "Android SDK", "Android 虚拟机"和"外观(Intel chip)"。      
 需要指定本机上的 Android Studio 和 Android SDK 的路径
 指定 Android 模拟器默认需要的 ram 空间为512M  
 最后，解压 SDK 软件包到本地机器，这将持续一段时间并占用2626M 的硬盘空间。  
@@ -63,12 +63,10 @@ android-sdk环境变量
    2.下载后一路傻瓜式安装，安装完成后，运行cmd，输入node –v查看版本号，然后输入npm
    3.出现如上图信息，表示node.js安装成功。npm是一个node包管理和分发工具，有了npm，后面就可以输入指令在线安装appium(打开 cmd输入：npm install –g appium但是一般不推荐这种，下载比较慢，所以用下面这种客户端安装)
   八、安装appium
-
    1.下载安装地址：https://bitbucket.org/appium/appium.app/downloads/16
     2.直接双击appium-installer.exe文件安装就好，桌面会生成一个appium的图标，启动后界面显示如下
   九、安装.net framework
-
- 1.Appium是用.net开发的，所以需要安装.net framework4.5，下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=3065332
+      1.Appium是用.net开发的，所以需要安装.net framework4.5，下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=3065332
  十、appium-doctor
 
     1.appium安装好后，找到这个文件目录D:\appium\Appium\node_modules\.bin
