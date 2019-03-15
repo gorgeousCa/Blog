@@ -16,8 +16,12 @@
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B7.PNG)  
    
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B71.PNG)
-   4.打开cmd验证是否安装成功，输入java -version，然后输入javac   
-   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python 爬取微信朋友圈/捕获5.PNG)  
+   4.打开cmd验证是否安装成功，输入java -version，然后输入javac     
+    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/javav.PNG)  
+    
+   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B75.PNG)   
+   
+   
    
    
    
