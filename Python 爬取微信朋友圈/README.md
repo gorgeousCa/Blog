@@ -1,21 +1,22 @@
 # python爬取微信朋友圈
 ## 一、环境准备
-    1.jdk1.7.0 
-    2.android-sdk_r24.3.4-windows
-    3.python:3.6
-    4.appium：1.4.13.1
-    5.Node.js：node-v4.4.7-x64
-    6.Appium-Python-Client
+  1.jdk1.7.0   
+   2.android-sdk_r24.3.4-windows  
+    3.python:3.6  
+    4.appium：1.4.13.1  
+    5.Node.js：node-v4.4.7-x64   
+    6.Appium-Python-Client  
 ## 二、jdk安装
-    1.下载jdk包，我的是64位1.7版本。
-    2.一路傻瓜式安装，注意安装路径不要有空格，不要有中文。jdk和jre不要放在一个文件夹下  
-    3.设置三个环境变量,我的电脑>选择“属性”->“高级”->“环境变量”->“系统变量”->“新建”    
-    JAVA_HOME----D:\Java\jdk1.6.0” （根据自己安装路径填写）     
-    CLASSPATH--- .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;   
-    PATH-----;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;  
-     4.打开cmd验证是否安装成功，输入java -version，然后输入javac     
-    能显示版本号和下面的帮助信息说明安装成功     
-    如下图：  
+   1.下载jdk包，我的是64位1.7版本。    
+   2.一路傻瓜式安装，注意安装路径不要有空格，不要有中文。jdk和jre不要放在一个文件夹下  
+   3.设置三个环境变量,我的电脑>选择“属性”->“高级”->“环境变量”->“系统变量”->“新建”   
+    
+   JAVA_HOME----D:\Java\jdk1.6.0” （根据自己安装路径填写）       
+   CLASSPATH--- .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;     
+   PATH-----;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;    
+   4.打开cmd验证是否安装成功，输入java -version，然后输入javac       
+   能显示版本号和下面的帮助信息说明安装成功       
+   如下图：  
 ## 三、安卓开发环境配置     
      如果我们要使用Android设备做App抓取的话，还需要下载和配置Android SDK，这里我们直接下载Android Studio。下载后直接安装即可。      
      确保在安装 Android Studio 之前，已经安装好 Java JDK。      
