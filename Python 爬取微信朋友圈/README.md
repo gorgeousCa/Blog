@@ -108,10 +108,12 @@
    ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/3.png)
    该界面的详细说明：  
   ![image]( https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/img.jpg)  
-  下面我们输入以下代码：    
-          
+  下面我们输入以下脚本： 
+
+
+    
           "platformName": "Android",
-            "deviceName": "MI_8",
+            "deviceName": "MI_8",//手机设备名称，通过adb devices查看
            "app_package": "com.tencent.mm",
           "app_activity": ".ui.LauncherUI",
         "driver_server": "http://127.0.0.1:4723/wd/hub",
@@ -119,7 +121,11 @@
 即：  
 ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/4.png)  
 点击右下角的 start session，运行结果如下：  
-![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/5.png)  
+![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/5.png) 
+随后在手机上会弹出安装下面两个软件的提示，安装后，桌面上多两个图标。那么恭喜你启动成功:
+![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/d1.png)
+![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/d2.png)
+
 
 
 
