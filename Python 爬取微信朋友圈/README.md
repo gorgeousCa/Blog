@@ -44,12 +44,12 @@
  
 
    完成上面的步骤，将看到结束按钮，并可以在欢迎界面中打开 Android Studio 项目，如下图：  
-  ![image](https://github.com/gorgeousCa/Dayup/blob/master/%E6%8D%95%E8%8E%B710.PNG)
-    android-sdk下载安装  
-    3.勾选你要下载的API版本和对应的android版本，后面模拟器会用到（不下载用其它模拟器也行，或者真机），然后坐等下载
+  ![image](https://github.com/gorgeousCa/Dayup/blob/master/%E6%8D%95%E8%8E%B710.PNG)  
+    android-sdk下载安装    
+    勾选你要下载的API版本和对应的android版本，后面模拟器会用到（不下载用其它模拟器也行，或者真机），然后坐等下载
   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B71-1.PNG)
-  ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1.1.11.png)
-    android-sdk环境变量:  
+  ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1.1.11.png)    
+    android-sdk环境变量:    
     1.在系统变量新建：ANDROID_HOME，对应变量值为：C:\Users\lenovo\AppData\Local\Android\Sdksdk安装路径）
     ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B71-2.PNG)  
    2.path里面添加C:\Users\lenovo\AppData\Local\Android\Sdk\tools和C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools
@@ -62,7 +62,7 @@
 ## 五、连接手机  
   1.手机用数据线连电脑，如果安装了91助手或者360什么的可以先下载手机驱动，确认手机能连上     
  2.打开cmd输入：adb devices,当屏幕上出现一串字符，后面显示devices说明连接成功（出现其它的提示，得检查自己的环境了）
- ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python 爬取微信朋友圈/adbdevices.png)
+ ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/adbdevices.png)
 ## 六、Python安装
   1.下载Python安装包，选择2.7版本和3.6版本都可以
   官网下载地址：https://www.python.org/15
@@ -87,15 +87,14 @@
      ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1.1.3.png)
    
  ## 十、appium-doctor
-   1.appium安装好后，找到这个文件目录D:\appium\Appium\node_modules\.bin
-
-   2.将上面的地址添加到环境变量path下
-     ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/modules.png)
-   3.打卡cmd，输入appium-doctor,检查环境是否OK，出现如下图所示，说明环境OK
-     ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/success.png)
-  ## 十一、安装Appium-Python-Client
+   1.appium安装好后，找到这个文件目录D:\appium\Appium\node_modules\.bin  
+   2.将上面的地址添加到环境变量path下  
+     ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/modules.png)  
+   3.打卡cmd，输入appium-doctor,检查环境是否OK，出现如下图所示，说明环境OK  
+     ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/success.png)  
+  ## 十一、安装Appium-Python-Client  
    1.前面python环境安装，已经准备好pip了，所以这里直接打开cmd，输入：pip install Appium-Python-Client
-    ![image]
+   
    
   
     
