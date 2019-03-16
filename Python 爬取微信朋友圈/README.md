@@ -97,6 +97,37 @@
   ## 十一、安装Appium-Python-Client  
    1.前面python环境安装，已经准备好pip了，所以这里直接打开cmd，输入：pip install Appium-Python-Client
    
+   # python爬取微信朋友圈
+   # 下篇：
+   在完成了上述一系列安装以及配置环境之后，接下来咱们终于进入了正题。  
+   首先，将手机与pc端用数据线连接，并打开手机端的USB调试，并且中途使手机不要息屏，打开桌面上的appium,如下图所示：
+   ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1.png)
+   点击start Server,进入以下界面：
+   ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/2.png)
+   点击右上角的搜索符号，进入以下界面：
+   ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/3.png)
+   该界面的详细说明：
+  ![image]( https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/img.jpg)
+  下面我们输入以下代码：  
+          
+          "platformName": "Android",
+            "deviceName": "MI_8",
+           "app_package": "com.tencent.mm",
+          "app_activity": ".ui.LauncherUI",
+        "driver_server": "http://127.0.0.1:4723/wd/hub",
+         "app": "F:\\迅雷下载\\weixin_1400.apk"
+即：
+![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/4.png)
+点击右下角的 start session，运行结果如下：
+![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/5.png)
+
+
+
+
+  
+   
+   
+   
    
   
     
