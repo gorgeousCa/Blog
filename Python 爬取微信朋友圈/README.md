@@ -106,9 +106,9 @@
    ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/2.png)
    点击右上角的搜索符号，进入以下界面：
    ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/3.png)
-   该界面的详细说明：
-  ![image]( https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/img.jpg)
-  下面我们输入以下代码：  
+   该界面的详细说明：  
+  ![image]( https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/img.jpg)  
+  下面我们输入以下代码：    
           
           "platformName": "Android",
             "deviceName": "MI_8",
@@ -116,10 +116,10 @@
           "app_activity": ".ui.LauncherUI",
         "driver_server": "http://127.0.0.1:4723/wd/hub",
          "app": "F:\\迅雷下载\\weixin_1400.apk"
-即：
-![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/4.png)
-点击右下角的 start session，运行结果如下：
-![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/5.png)
+即：  
+![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/4.png)  
+点击右下角的 start session，运行结果如下：  
+![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/5.png)  
 
 
 
