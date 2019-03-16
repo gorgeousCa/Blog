@@ -75,21 +75,21 @@
      ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1.1.1.png)
     3.出现如上图信息，表示node.js安装成功。npm是一个node包管理和分发工具，有了npm，后面就可以输入指令在线安装appium(打开 cmd输入：npm install –g appium但是一般不推荐这种，下载比较慢，所以用下面这种客户端安装)
   ## 八、安装appium
-   1.下载安装地址：https://bitbucket.org/appium/appium.app/downloads/16
-   
+   1.下载安装地址：https://bitbucket.org/appium/appium.app/downloads/16 
+
    2.直接双击appium-installer.exe文件安装就好，桌面会生成一个appium的图标，启动后界面显示如下
-     ![image]
+     ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/qppium.png)
   ## 九、安装.net framework
    1.Appium是用.net开发的，所以需要安装.net framework4.5，下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=3065332
-     ![image]
+     ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1.1.3.png)
    
  ## 十、appium-doctor
    1.appium安装好后，找到这个文件目录D:\appium\Appium\node_modules\.bin
-    ![image]
-    2.将上面的地址添加到环境变量path下
-     ![image]
-    3.打卡cmd，输入appium-doctor,检查环境是否OK，出现如下图所示，说明环境OK
-     ![image]
+
+   2.将上面的地址添加到环境变量path下
+     ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/modules.png)
+   3.打卡cmd，输入appium-doctor,检查环境是否OK，出现如下图所示，说明环境OK
+     ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/success.png)
   ## 十一、安装Appium-Python-Client
    1.前面python环境安装，已经准备好pip了，所以这里直接打开cmd，输入：pip install Appium-Python-Client
     ![image]
