@@ -29,16 +29,19 @@
    
    
 ## 三、安卓开发环境配置     
- 如果我们要使用Android设备做App抓取的话，还需要下载和配置Android SDK，这里我们直接下载Android Studio。下载后直接安装即可。        
-    确保在安装 Android Studio 之前，已经安装好 Java JDK。      
-  以下图片为 Android SDK 初始化 JDK
-  
-  
-  检查创建应用程序所需的组件，下图选中了 "Android Studio", "Android SDK", "Android 虚拟机"和"外观(Intel chip)"。        
-     需要指定本机上的 Android Studio 和 Android SDK 的路径
-    指定 Android 模拟器默认需要的 ram 空间为512M  
-    最后，解压 SDK 软件包到本地机器，这将持续一段时间并占用2626M 的硬盘空间。  
-    完成上面的步骤，将看到结束按钮，并可以在欢迎界面中打开 Android Studio 项目，如下图：  
+ 如果我们要使用Android设备做App抓取的话，还需要下载和配置Android SDK，这里我们直接下载Android Studio。下载后直接安装即可。
+ ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B74.PNG)
+  确保在安装 Android Studio 之前，已经安装好 Java JDK。
+  检查创建应用程序所需的组件，下图选中了 "Android Studio", "Android SDK", "Android 虚拟机"和"外观(Intel chip)"。
+  ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B77.PNG)
+   需要指定本机上的 Android Studio 和 Android SDK 的路径
+   
+ ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B76.PNG)
+  指定 Android 模拟器默认需要的 ram 空间为512M
+  ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B78.PNG)
+ 最后，解压 SDK 软件包到本地机器，这将持续一段时间并占用2626M 的硬盘空间。
+ ![Image]()
+   完成上面的步骤，将看到结束按钮，并可以在欢迎界面中打开 Android Studio 项目，如下图：  
     android-sdk下载安装  
     3.勾选你要下载的API版本和对应的android版本，后面模拟器会用到（不下载用其它模拟器也行，或者真机），然后坐等下载  
     android-sdk环境变量  
