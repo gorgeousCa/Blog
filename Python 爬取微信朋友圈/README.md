@@ -120,7 +120,7 @@
          "app": "F:\\迅雷下载\\weixin_1400.apk"
 即：  
 ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/4.png)  
-点击右下角的 start session，运行结果如下：  
+点击右下角的 start session，手机会自动转到微信的登陆界面，运行结果如下：  
 ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/5.png) 
 随后在手机上会弹出安装下面两个软件的提示，安装后，桌面上多两个图标。那么恭喜你启动成功:
 ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/d1.png)
