@@ -147,13 +147,12 @@ class Moments():
         'appActivity':app_activity}  
         self.driver=webdriver.Remote(driver_server,self.desired_caps)  
         self.wait=WebDriverWait(self.driver,300)  
-
-    def login(self):  
+def login(self):  
         print('点击登陆按钮——————')  
         login=self.wait.until(EC.presence_of_element_located((By.ID,'com.tencent.mm:id/d75')))  
         login.click()  
 
-    def main(self):  
+ def main(self):  
         self.login()  
 
 M=Moments()  
