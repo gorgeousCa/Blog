@@ -3,9 +3,9 @@
          
 ## 一、环境准备
   1.jdk1.7.0   
-   2.android-sdk_r24.3.4-windows  
+   2.Android Studio
     3.python:3.6  
-    4.appium：1.4.13.1  
+    4.appium 
     5.Node.js：node-v4.4.7-x64   
     6.Appium-Python-Client  
 ## 二、jdk安装
@@ -125,6 +125,39 @@
 随后在手机上会弹出安装下面两个软件的提示，安装后，桌面上多两个图标。那么恭喜你启动成功:
 ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/d1.png)
 ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/d2.png)
+下图中，要先点击图中的按钮，才会出现手机上的画面，图中我已经定位到登陆按钮，可以在右边看到属性resource-id,以及clickable=True，确实是可以点击的，为什么要这样确认下呢，因为有的你以为可以点击的元素:
+`#下面我们就模拟登陆，具体就是通过找到登陆这个元素，然后点击它  
+from appium import webdriver    
+from selenium.webdriver.support.ui import WebDriverWait  
+from selenium.webdriver.support import expected_conditions as EC  
+from selenium.webdriver.common.by import By  
+
+PLATFORM='Android'  
+deviceName='HUAWEI_P7_L09'  
+app_package='com.tencent.mm'  
+app_activity='.ui.LauncherUI'  
+driver_server='http://127.0.0.1:4723/wd/hub'  
+
+class Moments():  
+    def __init__(self):  
+        self.desired_caps={  
+        'platformName':PLATFORM,  
+        'deviceName':deviceName,  
+        'appPackage':app_package,  
+        'appActivity':app_activity}  
+        self.driver=webdriver.Remote(driver_server,self.desired_caps)  
+        self.wait=WebDriverWait(self.driver,300)  
+
+    def login(self):  
+        print('点击登陆按钮——————')  
+        login=self.wait.until(EC.presence_of_element_located((By.ID,'com.tencent.mm:id/d75')))  
+        login.click()  
+
+    def main(self):  
+        self.login()  
+
+M=Moments()  
+M.main()`  
 
 
 
