@@ -127,7 +127,7 @@
 ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/d2.png)
 要先点击图中的按钮，才会出现手机上的画面，图中我已经定位到登陆按钮，可以在右边看到属性resource-id,以及clickable=True，确实是可以点击的。    
 下面我们就模拟登陆，具体就是通过找到登陆这个元素，然后点击它    
-`       from appium import webdriver    
+```  from appium import webdriver    
 from selenium.webdriver.support.ui import WebDriverWait  
 from selenium.webdriver.support import expected_conditions as EC  
 from selenium.webdriver.common.by import By  
@@ -156,11 +156,10 @@ def login(self):
         self.login()  
 
 M=Moments()   
-M.main()`  
-
+M.main()```
 运行后就会跳出登陆界面，接下来就都是定位元素与点击元素的事情：
 
-`from appium import webdriver  
+```from appium import webdriver  
 from selenium.webdriver.support.ui import WebDriverWait  
 from selenium.webdriver.support import expected_conditions as EC  
 from selenium.webdriver.common.by import By  
@@ -241,11 +240,12 @@ class Moments():
         self.crawl()  
 
 M=Moments()  
-M.main()  
+M.main()```
+
 
 driver.swipe()是从点A滑动到点B,driver.swipe(300,1000,300,300)是从点（300，1000）滑动到（300，300）  
 
-self.collection.update({'nickname':nickname,'content':content},{'$set':data},True)`
+self.collection.update({'nickname':nickname,'content':content},{'$set':data},True)
 
 首先根据昵称和正文来查询，如果信息不存在，则插入数据，否则更新数据，关键点是第三个参数True，这可以实现存在即更新，不存在即插入的代码。
 
