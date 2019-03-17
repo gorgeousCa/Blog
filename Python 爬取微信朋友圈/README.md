@@ -155,9 +155,9 @@ def login(self):
  def main(self):  
         self.login()  
 
-M=Moments()  
-M.main()`    
-运行后就会跳出登陆界面，接下来就都是定位元素与点击元素的事情：    
+M=Moments()   
+M.main()`      
+运行后就会跳出登陆界面，接下来就都是定位元素与点击元素的事情：      
 `from appium import webdriver  
 from selenium.webdriver.support.ui import WebDriverWait  
 from selenium.webdriver.support import expected_conditions as EC  
