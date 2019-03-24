@@ -37,7 +37,7 @@ Mac上安装可以选择图形化方式和终端安装，此处直接使用客�
 
 `sudo npm install`  
 
-执行下述命令生成本地网页文件并开启服务器，然后通过http://localhost:4000查看本地博客。
+执行下述命令生成本地网页文件并开启服务器，然后通过http://localhost:4000 查看本地博客。
 
 `hexo g`
 `hexo s`
@@ -60,7 +60,7 @@ hexo d`
 若未关联GitHub，执行hexo d时会提示输入GitHub账号用户名和密码，即:
 `username for 'https://github.com':  
 password for 'https://github.com':` 
-hexo d执行成功后便可通过https://gorgeousCa.github.io访问博客，看到的内容和http://localhost:4000相同。  
+hexo d执行成功后便可通过https://gorgeousCa.github.io 访问博客，看到的内容和 http://localhost:4000 相同。  
 3.4、添加ssh keys到GitHub
 添加ssh key后不需要每次更新博客再输入用户名和密码。首先检查本地是否包含ssh keys。如果存在则直接将ssh key添加到GitHub之中，否则新生成ssh key。
 执行下述命令生成新的ssh key，将your_email@example.com改成自己注册的GitHub邮箱地址。默认会在~/.ssh/id_rsa.pub中生成id_rsa和id_rsa.pub文件。
