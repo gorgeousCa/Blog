@@ -47,10 +47,10 @@ Mac上安装可以选择图形化方式和终端安装，此处直接使用客�
 终端cd到myblog文件夹下，打开_config.yml文件。或者用其他文本编辑器打开可以，推荐sublime。  
 `vim _config.yml` 
 打开后到文档最后部分，将deploy配置如下。  
-          `deploy: ` 
-           `type: git`  
-        `repository: https://github.com/gorgeousCa/gorgeousCa.github.io.git ` 
- ` branch: master`   
+          `deploy:   `     
+           `type: git  `    
+        `repository: https://github.com/gorgeousCa/gorgeousCa.github.io.git   `   
+ ` branch: master  `     
   
 其中将repository中gorgeousCa改为自己的用户名，注意type、repository、branch后均有空格。通过如下命令在myblog下生成静态文件并上传到服务器。  
 `hexo g    
