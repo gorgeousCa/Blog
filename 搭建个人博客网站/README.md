@@ -3,7 +3,7 @@
 ### 一、准备工作：
 1.安装Node.js和Git
 Mac上安装可以选择图形化方式和终端安装，此处直接使用客户端方式安装。Node.js官网下载文件，根据提示安装即可，安装成功后在目录/usr/local/bin目录下。测试Node.js和npm，出现下述信息则安装成功。
-![image]()
+![image](https://github.com/gorgeousCa/Dayup/blob/master/搭建个人博客网站/1.png)
 
   
 ### 二、搭建github博客
@@ -14,7 +14,7 @@ Mac上安装可以选择图形化方式和终端安装，此处直接使用客�
 
 几个注意的地方：  
 注册的邮箱一定要验证，否则不会成功；    
-仓库名字必须是：username.github.io，其中username是你的用户名；   、、
+仓库名字必须是：username.github.io，其中username是你的用户名；   
 创建成功后，默认会在你这个仓库里生成一些示例页面，以后你的网站所有代码都是放在这个仓库里啦。
 
 2.配置SSH key  
@@ -40,6 +40,8 @@ Mac上安装可以选择图形化方式和终端安装，此处直接使用客�
 `hexo g`
 `hexo s`
 如下图所示：
+![image](https://github.com/gorgeousCa/Dayup/blob/master/搭建个人博客网站/2.png)
+
 3.3、本地博客关联GitHub
 注册并登陆GitHub账号后，新建仓库，名称必须为user.github.io，如gorgeousCa.github.io。  
 终端cd到myblog文件夹下，打开_config.yml文件。或者用其他文本编辑器打开可以，推荐sublime。  
