@@ -73,9 +73,9 @@ Title里填写任意标题，将复制的内容粘贴到key中，点击Add key�
 
 此时本地博客内容便已关联到GitHub之中，本地博客改变之后，通过hexo g和hexo d便可更新到GitHub之中，通过https://gorgeousCa.github.io 访问便可看到更新内容。   
 5.更换Hexo主题
-可以选择Hexo主题官网页面搜索喜欢的theme，这里我选择yilia当作自己主题，yilia主题是GitHub中hexo主题star较高的项目，非常推荐使用。
-终端cd到myblog目录下执行如下所示命令。
-git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia
+可以选择Hexo主题官网页面搜索喜欢的theme，这里我选择yilia当作自己主题，yilia主题是GitHub中hexo主题star较高的项目，非常推荐使用。  
+终端cd到myblog目录下执行如下所示命令。  
+git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia   
 
 将blog目录下_config.yml里的theme的名称landscape更改为yilia  
 ![image](https://github.com/gorgeousCa/Dayup/blob/master/搭建个人博客网站/7.png)
