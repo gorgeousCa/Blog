@@ -72,7 +72,7 @@ Mac下利用open ~/.ssh打开文件夹，打开id_rsa.pub文件，里面的信�
 Title里填写任意标题，将复制的内容粘贴到key中，点击Add key完成添加。  
 
 此时本地博客内容便已关联到GitHub之中，本地博客改变之后，通过hexo g和hexo d便可更新到GitHub之中，通过https://gorgeousCa.github.io 访问便可看到更新内容。   
-5.更换Hexo主题
+3.5、更换Hexo主题
 可以选择Hexo主题官网页面搜索喜欢的theme，这里我选择yilia当作自己主题，yilia主题是GitHub中hexo主题star较高的项目，非常推荐使用。  
 终端cd到myblog目录下执行如下所示命令。
 
@@ -89,7 +89,7 @@ hexo d  //重新部署到服务器
 当本地博客部署到服务器后，网页端无变化时可以采用下述命令。
 hexo clean  //清楚缓存文件(db.json)和已生成的静态文件(public)
 
-6.配置hexo-theme-yilia.git
+3.6、配置hexo-theme-yilia.git
 hexo-theme-yilia.git主题为精于心、简于形，简洁的界面中能够呈现丰富的内容，访问next官网查看配置内容。配置文件主要修改主题next文件夹中_config.yml文件，next有三种主题选择，分别为Muse、Mist、Pisces三种，个人选择的是Pisces主题。主题增加标签、分类、归档、喜欢（书籍和电影信息流）、文章阅读统计、访问人数统计、评论等功能，博客界面如下所示。
 ![image](https://github.com/gorgeousCa/Dayup/blob/master/搭建个人博客网站/5.png)
 
