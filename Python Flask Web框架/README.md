@@ -7,14 +7,14 @@
     Werkzeug 一个 WSGI
     工具包
     jinja2 模板引擎  
- 1.1 使用 pip 安装 Python 包
+ 1.  使用 pip 安装 Python 包
 
    使用  pip install flask 安装 Flask  
 所有的Flask应用程序都必须创建一个 应用程序实例 。使用web服务器网关接口协议将所有从客户端接收的请求传递给这个对象处理。这个应用程序实例就是Flask类的一个对象，通常使用下面的方式创建：  
 	
     1.from flask import Flask  
     2.app = Flask(__name__)  
-1.2 路由和视图函数   
+2.  路由和视图函数   
 
 程序实例保存了一个 URL 到 Python 函数的映射关系，处理 URL 和函数之间关系的程序成为路由。  
 Flask 中定义路由最简单的方式是使用程序提供的 app.route 修饰器，把修饰的函数注册为路由。  
@@ -33,4 +33,36 @@ Flask 中定义路由最简单的方式是使用程序提供的 app.route 修饰
 	return '<h1>Hello, %s!</h1>' % name   
 
 尖括号中的内容是动态部分，任何能匹配静态部分的 URL 都会映射到这个路由上。     
+3. 服务启动
+应用程序实例有一个run方法用于启动Flask集成的web服务：
+	
+	if __name__ == '__main__':
+ 	app.run(debug=True)
+
+__name__ == '__main__'在此处使用是用于确保web服务已经启动当脚本被立即执行。当脚本被另一个脚本导入，它被看做父脚本将启动不同的服务，所以app.run()调用会被跳过。
+
+一旦服务启动，它将进入循环等待请求并为之服务。这个循环持续到应用程序停止，例如通过按下Ctrl-C。
+
+有几个选项参数可以给app.run()配置web服务的操作模式。在开发期间，可以很方便的开启debug模式，将激活 debugger 和 reloader 。这样做是通过传递debug为True来实现的。
+
+注：Flask提供的web服务并不用于生产环境。你将在十七章学习生产环境的web服务。
+
+4. 一个完整的应用程序
+在上一节，你学习了Flask web应用程序的不同部分，现在是时候写一个了。整个 hello.py 应用程序脚本只不过将前面描述的三个部分结合在一个文件中。应用程序示例2-1所示。
+
+示例 hello.py：一个完整的Flask应用程序
+	
+	from flask import Flask
+	app = Flask(__name__)
+ 
+	@app.route('/')
+	def index():
+ 	return '
+ 
+	<h1>Hello World!</h1>
+ 
+	'
+ 
+	if __name__ == '__main__':
+ 	app.run(debug=True)
 
