@@ -22,23 +22,23 @@ Cursor:游标对象，用于执行查询和获取结果
  ![Iamge text](https://github.com/gorgeousCa/Dayup/blob/master/MySQL/20190303211447.png)
  从结果中我们可以看见成功创建了一个Connection和Cursor对象
  ## 二、建立数据库，进行一些简单操作
- 1.简单的创建一个student表，并且插入一些数据。student表中只有两个字段：stuid和stuname。代码如下：  
- `import MySQLdb`  
-`conn=MySQLdb.connect(host='localhost',port=3306,user='root',passwd='mysql',db='lms',charset='utf8')`  
-`cur=conn.cursor()`  
-`cur.execute(""" ` 
-`create table if not EXISTS student1`  
-`(  
+   1.简单的创建一个student表，并且插入一些数据。student表中只有两个字段：stuid和stuname。代码如下：  
+  `import MySQLdb`  
+  `conn=MySQLdb.connect(host='localhost',port=3306,user='root',passwd='mysql',db='lms',charset='utf8')`  
+  `cur=conn.cursor()`  
+  `cur.execute(""" ` 
+  `create table if not EXISTS student1`  
+  `(  
   stuid int(11) PRIMARY KEY ,  
   stuname VARCHAR(20)  
-)`  
-`""")`    
-`for i in range(1,10):`  
+   )`  
+  `""")`    
+  `for i in range(1,10):`  
    `cur.execute("insert into student1(stuid,stuname ) values('%d','%s')" %(int(i),'name'+str(i)))`
-`conn.commit()` 
-`cur.close()`  
-`conn.close()` 
-我们用Navicat打开数据库，查看一下结果:  
+  `conn.commit()` 
+  `cur.close()`  
+  `conn.close()` 
+   我们用Navicat打开数据库，查看一下结果:  
 ![Iamge text](https://github.com/gorgeousCa/Dayup/tree/master/MySQL/1.png)
 
 
