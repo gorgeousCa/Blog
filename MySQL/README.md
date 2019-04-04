@@ -14,10 +14,10 @@
  `import MySQLdb`
  `conn=MySQLdb.connect(host='localhost',port=3306,user='root',passwd='mysql',db='lms',charset='utf8')` 
  `cursor=conn.cursor()`  
-    `print(conn)`  
-    `print(cursor) ` 
- `cursor.close()`  
- `conn.close()`
+    `print(conn)`    
+    `print(cursor) `   
+ `cursor.close()`    
+ `conn.close()`    
 * 运行结果如下:  
  ![Iamge text](https://github.com/gorgeousCa/Dayup/blob/master/MySQL/20190303211447.png)
  ### 从结果中我们可以看见成功创建了一个Connection和Cursor对象
