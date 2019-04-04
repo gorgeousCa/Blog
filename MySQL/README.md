@@ -24,7 +24,7 @@
  ## 二、建立数据库，进行一些简单操作
  ### 1.简单的创建一个student表，并且插入一些数据。student表中只有两个字段：stuid和stuname。代码如下：  
  `import MySQLdb`  
-`conn=conn=MySQLdb.connect(host='localhost',port=3306,user='root',passwd='mysql',db='lms',charset='utf8')`  
+`conn=MySQLdb.connect(host='localhost',port=3306,user='root',passwd='mysql',db='lms',charset='utf8')`  
 `cur=conn.cursor()`  
 `cur.execute(""" ` 
 `create table if not EXISTS student1`  
