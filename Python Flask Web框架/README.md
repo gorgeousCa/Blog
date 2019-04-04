@@ -7,14 +7,14 @@ Flask 属于微框架（micro-framework）这一类别，微架构通常是很�
     Werkzeug 一个 WSGI
     工具包
     jinja2 模板引擎  
-    1.2 使用 pip 安装 Python 包
+ 1.1 使用 pip 安装 Python 包
 
 使用  pip install flask 安装 Flask  
 所有的Flask应用程序都必须创建一个 应用程序实例 。使用web服务器网关接口协议将所有从客户端接收的请求传递给这个对象处理。这个应用程序实例就是Flask类的一个对象，通常使用下面的方式创建：  
 	
     1.from flask import Flask  
     2.app = Flask(__name__)  
-2.2 路由和视图函数   
+1.2 路由和视图函数   
 
 程序实例保存了一个 URL 到 Python 函数的映射关系，处理 URL 和函数之间关系的程序成为路由。  
 Flask 中定义路由最简单的方式是使用程序提供的 app.route 修饰器，把修饰的函数注册为路由。  
