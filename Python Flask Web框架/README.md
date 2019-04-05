@@ -78,6 +78,6 @@ __name__ == '__main__'在此处使用是用于确保web服务已经启动当脚�
 
 然后在manage.py文件中，导入db，然后初始化，将app传进去：
 	
-db.init_app(app)
+    db.init_app(app)
 
 这样，在视图中需要用db的之后直接从ext导入，而不再从manage里导入
