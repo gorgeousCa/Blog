@@ -67,10 +67,7 @@ __name__ == '__main__'在此处使用是用于确保web服务已经启动当脚�
  	app.run(debug=True)
 运行如下图所示：
 ![Image text](https://github.com/gorgeousCa/Dayup/blob/master/Python%20Flask%20Web%E6%A1%86%E6%9E%B6/flaskr.png)
-如果上面的例子继续写下去的时候，我们或许会在视图views中引入models文件以操作数据，在models文件中引入manage文件中的db以定义类和字段，
-
-然后在manage文件中引入views文件以注册蓝图（register_blueprint），这样就出现了a引入b，b引入c，c引入a的问题，就会报错，
-
+如果上面的例子继续写下去的时候，我们或许会在视图views中引入models文件以操作数据，在models文件中引入manage文件中的db以定义类和字段，然后在manage文件中引入views文件以注册蓝图（register_blueprint），这样就出现了a引入b，b引入c，c引入a的问题，就会报错，
 解决办法就是另外创建一个ext.py文件，专门用来创建db，代码如下：
 	
 from flask_sqlalchemy import SQLAlchemy
