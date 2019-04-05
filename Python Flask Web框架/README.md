@@ -65,4 +65,24 @@ __name__ == '__main__'在此处使用是用于确保web服务已经启动当脚�
  
 	if __name__ == '__main__':
  	app.run(debug=True)
+如果上面的例子继续写下去的时候，我们或许会在视图views中引入models文件以操作数据，在models文件中引入manage文件中的db以定义类和字段，
 
+然后在manage文件中引入views文件以注册蓝图（register_blueprint），这样就出现了a引入b，b引入c，c引入a的问题，就会报错，
+
+解决办法就是另外创建一个ext.py文件，专门用来创建db，代码如下：
+1
+2
+3
+	
+from flask_sqlalchemy import SQLAlchemy
+ 
+db = SQLAlchemy()
+
+　　注意：此时先不讲app传入
+
+然后在manage.py文件中，导入db，然后初始化，将app传进去：
+1
+	
+db.init_app(app)
+
+这样，在视图中需要用db的之后直接从ext导入，而不再从manage里导入
