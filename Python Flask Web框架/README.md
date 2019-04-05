@@ -72,9 +72,6 @@ __name__ == '__main__'在此处使用是用于确保web服务已经启动当脚�
 然后在manage文件中引入views文件以注册蓝图（register_blueprint），这样就出现了a引入b，b引入c，c引入a的问题，就会报错，
 
 解决办法就是另外创建一个ext.py文件，专门用来创建db，代码如下：
-1
-2
-3
 	
 from flask_sqlalchemy import SQLAlchemy
  
