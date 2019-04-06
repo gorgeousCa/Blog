@@ -15,8 +15,9 @@
 
 2. 切换到 bin 目录
 在命令提示符窗口中，通过 cd 命令切换到 mysql 安装目录下的 bin 目录。
-↑ 默认安装目录为 C:\Program Files\MySQL\MySQL Server
+默认安装目录为 C:\Program Files\MySQL\MySQL Server
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Windows%E4%B8%8B%E9%87%8D%E7%BD%AEmysql%E5%AF%86%E7%A0%81/bin.PNG)
 
-3. 进入安全模式
+3. 进入安全模式 
 在 bin 目录下输入 mysqld --skip-grant-tables ，跳过权限检查启动 mysql。
 如果你配置了 my.ini 文件，则需要将其引入： mysqld --defaults-file="../my.ini" --skip-grant-tables 
