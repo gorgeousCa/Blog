@@ -11,3 +11,4 @@
 快捷键 windows + R ；  
 输入 services.msc  ；  
 找到MySQL  停止其服务（前提是你之前已经把MySQL加入了系统服务中）
+![image text]()
