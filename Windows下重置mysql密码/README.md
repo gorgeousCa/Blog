@@ -25,8 +25,10 @@
 如果你配置了 my.ini 文件，则需要将其引入： mysqld --defaults-file="../my.ini" --skip-grant-tables 
 
 4. 重置账户密码
-打开另一个命令提示符窗口（别关闭安全模式窗口），同样切换到 mysql \ bin 目录，输入 mysql 跳过权限验证连接数据库。
-进入到终端当中，敲入 mysql -u root -p 命令然后回车，当需要输入密码时，直接按enter键，便可以不用密码登录到数据库当中
-mysql> update user set password=password("你的新密码") where user="root";
-mysql> flush privileges;
-mysql> quit
+打开另一个命令提示符窗口（别关闭安全模式窗口），同样切换到 mysql \ bin 目录，输入 mysql 跳过权限验证连接数据库。  
+进入到终端当中，敲入 mysql -u root -p 命令然后回车，当需要输入密码时，直接按enter键，便可以不用密码登录到数据库当中  
+mysql> update user set password=password("你的新密码") where user="root";  
+mysql> flush privileges;  
+mysql> quit  
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Windows%E4%B8%8B%E9%87%8D%E7%BD%AEmysql%E5%AF%86%E7%A0%81/bin2.PNG)
+
