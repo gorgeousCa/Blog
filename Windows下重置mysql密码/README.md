@@ -38,4 +38,6 @@ Query OK, 0 rows affected (0.02 sec)
 
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Windows%E4%B8%8B%E9%87%8D%E7%BD%AEmysql%E5%AF%86%E7%A0%81/bin3.PNG)
 
-
+现在，我们打开mysql，输入新密码，已经能正常使用mysql了
+如下图所示：
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Windows%E4%B8%8B%E9%87%8D%E7%BD%AEmysql%E5%AF%86%E7%A0%81/sql.PNG)
