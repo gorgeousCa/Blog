@@ -11,4 +11,12 @@
 快捷键 windows + R ；  
 输入 services.msc  ；  
 找到MySQL  停止其服务（前提是你之前已经把MySQL加入了系统服务中）
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Windows%E4%B8%8B%E9%87%8D%E7%BD%AEmysql%E5%AF%86%E7%A0%81/%E6%9C%8D%E5%8A%A1.PNG)
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Windows%E4%B8%8B%E9%87%8D%E7%BD%AEmysql%E5%AF%86%E7%A0%81/%E6%9C%8D%E5%8A%A1.PNG)  
+
+2. 切换到 bin 目录
+在命令提示符窗口中，通过 cd 命令切换到 mysql 安装目录下的 bin 目录。
+↑ 默认安装目录为 C:\Program Files\MySQL\MySQL Server
+
+3. 进入安全模式
+在 bin 目录下输入 mysqld --skip-grant-tables ，跳过权限检查启动 mysql。
+如果你配置了 my.ini 文件，则需要将其引入： mysqld --defaults-file="../my.ini" --skip-grant-tables 
