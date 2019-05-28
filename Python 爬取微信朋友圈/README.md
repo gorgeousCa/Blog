@@ -65,8 +65,8 @@
    2.path里面添加C:\Users\lenovo\AppData\Local\Android\Sdk\tools和C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools
      ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1-3.PNG)  
 ## 四、adb环境
-  1.因为adb是在C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools这个目录下的，所以上面添加了环境变量后，可以直接在cmd里面运行了。  
-  2.在cmd输入adb -version可以查看对应版本号
+  - 因为adb是在C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools这个目录下的，所以上面添加了环境变量后，可以直接在cmd里面运行了。  
+  - 在cmd输入adb -version可以查看对应版本号
   ![Iamge](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/adb.png)
   
 ## 五、连接手机  
