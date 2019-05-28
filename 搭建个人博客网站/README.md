@@ -1,13 +1,13 @@
 # 搭建个人博客网站
 ###### hexo + github pages + mac
 ### 一、准备工作：
-1.安装Node.js和Git
+- 安装Node.js和Git
 Mac上安装可以选择图形化方式和终端安装，此处直接使用客户端方式安装。Node.js官网下载文件，根据提示安装即可，安装成功后在目录/usr/local/bin目录下。测试Node.js和npm，出现下述信息则安装成功。  
 ![image](https://github.com/gorgeousCa/Dayup/blob/master/搭建个人博客网站/1.png)  
 
   
 ### 二、搭建github博客
-1.创建仓库  
+- 创建仓库  
 新建一个名为你的用户名.github.io的仓库，比如说，如果你的github用户名是test，那么你就新建test.github.io的仓库（必须是你的用户名，其它名称无效），将来你的网站访问地址就是 http://test.github.io 了，是不是很方便？  
 
 由此可见，每一个github账户最多只能创建一个这样可以直接使用域名访问的仓库。  
@@ -17,12 +17,12 @@ Mac上安装可以选择图形化方式和终端安装，此处直接使用客�
 仓库名字必须是：username.github.io，其中username是你的用户名；   
 创建成功后，默认会在你这个仓库里生成一些示例页面，以后你的网站所有代码都是放在这个仓库里啦。
 
-2.配置SSH key  
+- 配置SSH key  
 ### 三、使用hexo写博客  
- 3.1、安装Hexo  
+ -- 安装Hexo  
  
 `sudo npm install -g hexo`  
-3.2、博客初始化
+-- 博客初始化
 创建存储博客的文件，如blog  
  `mkdir blog`
  进入blog中
@@ -42,7 +42,7 @@ Mac上安装可以选择图形化方式和终端安装，此处直接使用客�
 如下图所示：
 ![image](https://github.com/gorgeousCa/Dayup/blob/master/搭建个人博客网站/2.png)
 
-3.3、本地博客关联GitHub
+-- 本地博客关联GitHub
 注册并登陆GitHub账号后，新建仓库，名称必须为user.github.io，如gorgeousCa.github.io。  
 终端cd到myblog文件夹下，打开_config.yml文件。或者用其他文本编辑器打开可以，推荐sublime。  
 `vim _config.yml` 
@@ -62,7 +62,7 @@ Mac上安装可以选择图形化方式和终端安装，此处直接使用客�
 `username for 'https://github.com':       
 password for 'https://github.com':`      
 hexo d执行成功后便可通过https://gorgeousCa.github.io 访问博客，看到的内容和 http://localhost:4000 相同。       
-3.4、添加ssh keys到GitHub     
+-- 添加ssh keys到GitHub     
 添加ssh key后不需要每次更新博客再输入用户名和密码。首先检查本地是否包含ssh keys。  
 如果存在则直接将ssh key添加到GitHub之中，否则新生成ssh key。   
 执行下述命令生成新的ssh key，将your_email@example.com改成自己注册的GitHub邮箱地址。默认会在~/.ssh/id_rsa.pub中生成id_rsa和id_rsa.pub文件。   
