@@ -11,12 +11,14 @@
     6.Appium-Python-Client  
    ```
 ## 二、jdk安装
-   1.下载jdk包，我的是64位1.7版本。    
-  2.一路傻瓜式安装，注意安装路径不要有空格，不要有中文。jdk和jre不要放在一个文件夹下  
-   3.设置三个环境变量,我的电脑>选择“属性”->“高级”->“环境变量”->“系统变量”->“新建”  
-   JAVA_HOME----D:\Java\jdk1.6.0” （根据自己安装路径填写）       
+   - 下载jdk包，我的是64位1.7版本。    
+   - 一路傻瓜式安装，注意安装路径不要有空格，不要有中文。jdk和jre不要放在一个文件夹下  
+   - 设置三个环境变量,我的电脑>选择“属性”->“高级”->“环境变量”->“系统变量”->“新建”  
+   
+  ``` JAVA_HOME----D:\Java\jdk1.6.0” （根据自己安装路径填写）       
    CLASSPATH--- .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;     
    PATH-----;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;  
+   ```
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B7.PNG)  
    
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B71.PNG)
@@ -35,14 +37,18 @@
 ## 三、安卓开发环境配置     
  如果我们要使用Android设备做App抓取的话，还需要下载和配置Android SDK.  
  这里我们直接下载Android Studio。下载后直接安装即可。  
+ 
  ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B74.PNG)  
   确保在安装 Android Studio之前，已经安装好 Java JDK。    
-  检查创建应用程序所需的组件，下图选中了 "Android Studio", "Android SDK", "Android 虚拟机"和"外观(Intel chip)"。    
+  
+  检查创建应用程序所需的组件，下图选中了 "Android Studio", "Android SDK", "Android 虚拟机"和"外观(Intel chip)"。  
+                       
   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B77.PNG)  
    需要指定本机上的 Android Studio 和 Android SDK 的路径    
    
  ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B76.PNG)  
-  指定 Android 模拟器默认需要的 ram 空间为512M    
+  指定 Android 模拟器默认需要的 ram 空间为512M  
+  
   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B78.PNG)  
  最后，解压 SDK 软件包到本地机器，这将持续一段时间并占用2626M 的硬盘空间。  
  
@@ -114,12 +120,13 @@
 
 
     
-          "platformName": "Android",
-            "deviceName": "MI_8",//手机设备名称，通过adb devices查看
-           "app_package": "com.tencent.mm",
-          "app_activity": ".ui.LauncherUI",
-        "driver_server": "http://127.0.0.1:4723/wd/hub",
-         "app": "F:\\迅雷下载\\weixin_1400.apk"
+   ```"platformName": "Android",
+   "deviceName": "MI_8",//手机设备名称，通过adb devices查看
+   "app_package": "com.tencent.mm",
+   "app_activity": ".ui.LauncherUI",
+   "driver_server": "http://127.0.0.1:4723/wd/hub",
+    "app": "F:\\迅雷下载\\weixin_1400.apk"
+```
 即：  
 ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/4.png)  
 点击右下角的 start session，手机会自动转到微信的登陆界面，运行结果如下：  
@@ -250,26 +257,5 @@ driver.swipe()是从点A滑动到点B,driver.swipe(300,1000,300,300)是从点（
 self.collection.update({'nickname':nickname,'content':content},{'$set':data},True)
 
 首先根据昵称和正文来查询，如果信息不存在，则插入数据，否则更新数据，关键点是第三个参数True，这可以实现存在即更新，不存在即插入的代码。
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-   
-   
-   
-   
-  
-    
-    
 
 
