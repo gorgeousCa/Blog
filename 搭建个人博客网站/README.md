@@ -19,23 +19,19 @@ Mac上安装可以选择图形化方式和终端安装，此处直接使用客�
 
 ### 三、使用hexo写博客  
  - 安装Hexo： 
- 
 `sudo npm install -g hexo`  
 - 博客初始化：
-创建存储博客的文件，如blog  
+创建存储博客的文件，如blog     
  `mkdir blog`
  进入blog中
  `cd blog`
  - 执行下述命令初始化本地博客，下载一系列文件： 
-
 `hexo init`
 
 - 执行下述命令安装npm：
-
 `sudo npm install`  
 
 - 执行下述命令生成本地网页文件并开启服务器，然后通过http://localhost:4000 查看本地博客:
-
 `hexo g`
 `hexo s`
 如下图所示：
