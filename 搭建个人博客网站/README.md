@@ -8,18 +8,17 @@ Mac上安装可以选择图形化方式和终端安装，此处直接使用客�
   
 ### 二、搭建github博客
 - 创建仓库  
-新建一个名为你的用户名.github.io的仓库，比如说，如果你的github用户名是test，那么你就新建test.github.io的仓库（必须是你的用户名，其它名称无效），将来你的网站访问地址就是 http://test.github.io 了，是不是很方便？  
+新建一个名为你的用户名.github.io的仓库，比如说，如果你的github用户名是test，那么你就新建test.github.io的仓库（必须是你的用户名，其它名称无效），将来你的网站访问地址就是 http://test.github.io 了，是不是很方便？由此可见，每一个github账户最多只能创建一个这样可以直接使用域名访问的仓库。  
 
-由此可见，每一个github账户最多只能创建一个这样可以直接使用域名访问的仓库。  
-
-几个注意的地方：  
+- 几个注意的地方：  
 注册的邮箱一定要验证，否则不会成功；    
 仓库名字必须是：username.github.io，其中username是你的用户名；   
 创建成功后，默认会在你这个仓库里生成一些示例页面，以后你的网站所有代码都是放在这个仓库里啦。
 
 - 配置SSH key  
+
 ### 三、使用hexo写博客  
- -安装Hexo  
+ - 安装Hexo  
  
 `sudo npm install -g hexo`  
 - 博客初始化
@@ -92,7 +91,7 @@ hexo d  //重新部署到服务器
 hexo clean  //清楚缓存文件(db.json)和已生成的静态文件(public)
 
 - 配置hexo-theme-yilia.git
-hexo-theme-yilia.git主题为精于心、简于形，简洁的界面中能够呈现丰富的内容，访问next官网查看配置内容。配置文件主要修改主题next文件夹中_config.yml文件，next有三种主题选择，分别为Muse、Mist、Pisces三种，个人选择的是Pisces主题。主题增加标签、分类、归档、喜欢（书籍和电影信息流）、文章阅读统计、访问人数统计、评论等功能，博客界面如下所示。
+hexo-theme-yilia.git主题为精于心、简于形，简洁的界面中能够呈现丰富的内容，访问next官网查看配置内容。配置文件主要修改主题next文件夹中_config.yml文件，next有三种主题选择，分别为Muse、Mist、Pisces三种，个人选择的是Pisces主题。主题增加标签、分类、归档、喜欢（书籍和电影信息流）、评论等功能，博客界面如下所示。
 ![image](https://github.com/gorgeousCa/Dayup/blob/master/搭建个人博客网站/5.png)
 
 
