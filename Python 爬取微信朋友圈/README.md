@@ -47,11 +47,11 @@
 
    - 完成上面的步骤，将看到结束按钮，并可以在欢迎界面中打开 Android Studio 项目，如下图：  
   ![image](https://github.com/gorgeousCa/Dayup/blob/master/%E6%8D%95%E8%8E%B710.PNG)  
-    - android-sdk下载安装:    
+   - android-sdk下载安装 :    
     勾选你要下载的API版本和对应的android版本，后面模拟器会用到（不下载用其它模拟器也行，或者真机），然后坐等下载
   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B71-1.PNG)
   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1.1.11.png)    
-    - android-sdk环境变量:       
+    - android-sdk环境变量 :       
     1.在系统变量新建：ANDROID_HOME，对应变量值为：C:\Users\lenovo\AppData\Local\Android\Sdksdk安装路径）
     ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B71-2.PNG)  
    2.path里面添加C:\Users\lenovo\AppData\Local\Android\Sdk\tools和C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools
