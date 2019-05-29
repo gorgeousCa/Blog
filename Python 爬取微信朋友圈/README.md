@@ -38,25 +38,22 @@
   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B74.PNG)  
   确保在安装 Android Studio之前，已经安装好 Java JDK。    
   
-  检查创建应用程序所需的组件，下图选中了 "Android Studio", "Android SDK", "Android 虚拟机"和"外观(Intel chip)"。  
-                       
+  - 检查创建应用程序所需的组件，下图选中了 "Android Studio", "Android SDK", "Android 虚拟机"和"外观(Intel chip)":  
   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B77.PNG)  
-   需要指定本机上的 Android Studio 和 Android SDK 的路径    
-   
- ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B76.PNG)  
-  指定 Android 模拟器默认需要的 ram 空间为512M  
-  
+   - 需要指定本机上的 Android Studio 和 Android SDK 的路径:    
+   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B76.PNG)  
+  - 指定 Android 模拟器默认需要的 ram 空间为512M : 
   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B78.PNG)  
  最后，解压 SDK 软件包到本地机器，这将持续一段时间并占用2626M 的硬盘空间。  
  
 
-   完成上面的步骤，将看到结束按钮，并可以在欢迎界面中打开 Android Studio 项目，如下图：  
+   - 完成上面的步骤，将看到结束按钮，并可以在欢迎界面中打开 Android Studio 项目，如下图：  
   ![image](https://github.com/gorgeousCa/Dayup/blob/master/%E6%8D%95%E8%8E%B710.PNG)  
-    android-sdk下载安装    
+    - android-sdk下载安装:    
     勾选你要下载的API版本和对应的android版本，后面模拟器会用到（不下载用其它模拟器也行，或者真机），然后坐等下载
   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B71-1.PNG)
   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1.1.11.png)    
-    android-sdk环境变量:    
+    - android-sdk环境变量:      
     1.在系统变量新建：ANDROID_HOME，对应变量值为：C:\Users\lenovo\AppData\Local\Android\Sdksdk安装路径）
     ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B71-2.PNG)  
    2.path里面添加C:\Users\lenovo\AppData\Local\Android\Sdk\tools和C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools
@@ -72,8 +69,8 @@
  - 打开cmd输入：adb devices,当屏幕上出现一串字符，后面显示devices说明连接成功（出现其它的提示，得检查自己的环境了）
  
  ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/adbdevices.png)
-## 六、Python安装
-  - 下载Python安装包，选择2.7版本和3.6版本都可以
+## 六、Python安装:
+  - 下载Python安装包，选择2.7版本和3.6版本都可以:
   官网下载地址：https://www.python.org/15
   - 小编的安装目录在d盘：D:\python
   - 安装完成后，看下这个目录D:\python\Scripts，有没pip.exe和easy_install.exe（一般都有）
@@ -81,13 +78,13 @@
   - 打开cmd输入python,出现版本号，然后输入print("hello world!")
   ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/hello%20world.png)
   ## 七、安装node.js
-   - 下载官网地址：https://nodejs.org/en/download/23
+   - 下载官网地址：https://nodejs.org/en/download/23:
    ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1-6.PNG)
-    - 下载后一路傻瓜式安装，安装完成后，运行cmd，输入node –v查看版本号，然后输入npm
+    - 下载后一路傻瓜式安装，安装完成后，运行cmd，输入node –v查看版本号，然后输入npm:
      ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1.1.1.png)
     - 出现如上图信息，表示node.js安装成功。npm是一个node包管理和分发工具，有了npm，后面就可以输入指令在线安装appium(打开 cmd输入：npm install –g appium但是一般不推荐这种，下载比较慢，所以用下面这种客户端安装)
   ## 八、安装appium
-   - 下载安装地址：https://bitbucket.org/appium/appium.app/downloads/16 
+   - 下载安装地址：https://bitbucket.org/appium/appium.app/downloads/16:  
 
    - 直接双击appium-installer.exe文件安装就好，桌面会生成一个appium的图标，启动后界面显示如下
      ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/qppium.png)
