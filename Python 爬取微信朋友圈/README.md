@@ -3,12 +3,12 @@
          
 ## 一、环境准备
   ```
-    1.jdk1.7.0   
-    2.Android Studio
-    3.python:3.6  
-    4.appium 
-    5.Node.js：node-v4.4.7-x64   
-    6.Appium-Python-Client  
+    - jdk1.7.0   
+    - Android Studio
+    - python:3.6  
+    - appium 
+    - Node.js：node-v4.4.7-x64   
+    - Appium-Python-Client  
    ```
 ## 二、jdk安装
    - 下载jdk包，我的是64位1.7版本。    
