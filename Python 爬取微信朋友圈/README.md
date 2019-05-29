@@ -2,14 +2,14 @@
 # 上篇：  
          
 ## 一、环境准备
-  ```
-    - jdk1.7.0   
-    - Android Studio
-    - python:3.6  
-    - appium 
-    - Node.js：node-v4.4.7-x64   
-    - Appium-Python-Client  
-   ```
+
+   - jdk1.7.0   
+   - Android Studio
+   - python:3.6  
+   - appium 
+   - Node.js：node-v4.4.7-x64   
+   - Appium-Python-Client  
+
 ## 二、jdk安装
    - 下载jdk包，我的是64位1.7版本。    
    - 一路傻瓜式安装，注意安装路径不要有空格，不要有中文。jdk和jre不要放在一个文件夹下  
