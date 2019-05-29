@@ -14,19 +14,16 @@
    - 下载jdk包，我的是64位1.7版本。    
    - 一路傻瓜式安装，注意安装路径不要有空格，不要有中文。jdk和jre不要放在一个文件夹下  
    - 设置三个环境变量,我的电脑>选择“属性”->“高级”->“环境变量”->“系统变量”->“新建”  
-   
-  ``` JAVA_HOME----D:\Java\jdk1.6.0” （根据自己安装路径填写）       
+    ``` 
+   JAVA_HOME----D:\Java\jdk1.6.0” （根据自己安装路径填写）       
    CLASSPATH--- .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;     
    PATH-----;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;  
    ```
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B7.PNG)  
-   
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B71.PNG)
-  - 打开cmd验证是否安装成功，输入java -version，然后输入javac
-  能显示版本号和下面的帮助信息说明安装成功         
+  - 打开cmd验证是否安装成功，输入java -version，然后输入javac能显示版本号和下面的帮助信息说明安装成功:        
    如下图：    
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/javav.PNG)  
-    
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B75.PNG)   
    
    
@@ -35,10 +32,9 @@
    
    
 ## 三、安卓开发环境配置     
- 如果我们要使用Android设备做App抓取的话，还需要下载和配置Android SDK.  
- 这里我们直接下载Android Studio。下载后直接安装即可。  
- 
- ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B74.PNG)  
+ - 如果我们要使用Android设备做App抓取的话，还需要下载和配置Android SDK.  
+  这里我们直接下载Android Studio。下载后直接安装即可。  
+  ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B74.PNG)  
   确保在安装 Android Studio之前，已经安装好 Java JDK。    
   
   检查创建应用程序所需的组件，下图选中了 "Android Studio", "Android SDK", "Android 虚拟机"和"外观(Intel chip)"。  
