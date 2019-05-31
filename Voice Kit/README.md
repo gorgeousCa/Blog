@@ -15,6 +15,15 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 - 打开盒子，可见有如下配件：
 ![iamge text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/IMG_20190531_213101.jpg)
 - 按照官网链接并组装：
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/T6J3G7J0R)%7DYY3T%7D%60%25C%24CC5.png)
+现在您的盒子已组装好，请将外围设备插入：
+1 USB键盘   2USB鼠标   3 HDMI监视器  
+- 将SD卡（带有Voice Kit SD图像的SD卡）插入Raspberry Pi板底部的插槽中。SD卡插槽应通过外部纸板形式提供的切口进入。
+连接SD卡并连接外围设备后，插上电源，Raspberry Pi将开始启动。
+如果显示器上没有显示任何内容，或者看到“Openbox语法错误”，请查看附录中的故障排除指南。  
+- 单击 Raspberry Pi桌面右上角的网络图标。选择您首选的Wi-Fi接入点。
+至此，已完成VOICE KIT的物理组装
+## PART 2 安装Google Assistant SDK
 
 
 
