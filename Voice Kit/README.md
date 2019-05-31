@@ -5,5 +5,6 @@
 - SD 卡
 - VoiceKit 配件
 ## PART 1 物理组装
+[!image text]()
 
 
