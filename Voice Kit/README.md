@@ -16,6 +16,7 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 ![iamge text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/IMG_20190531_213101.jpg)
 - 按照官网链接并组装：
 ![iamge text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/T6J3G7J0R)%7DYY3T%7D%60%25C%24CC5.png)
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/T6J3G7J0R)%7DYY3T%7D%60%25C%24CC5.png)
 现在您的盒子已组装好，请将外围设备插入：
 1 USB键盘   2USB鼠标   3 HDMI监视器  
 - 将SD卡（带有Voice Kit SD图像的SD卡）插入Raspberry Pi板底部的插槽中。  
