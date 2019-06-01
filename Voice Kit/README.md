@@ -21,8 +21,11 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/%E6%A1%8C%E9%9D%A2.PNG)
 
 ## PART 2 验证是否有效
-- 此脚本验证Voice HAT附件板上的音频输入和输出组件是否正常工作。双击桌面上的“ 检查音频”图标。
+- 此脚本验证Voice HAT附件板上的音频输入和输出组件是否正常工作。双击桌面上的“ Check audio”图标。
 单击脚本时，它将运行下面列出的每个步骤。注意：某些步骤需要语音输入，您将被提示 - 所以请密切关注！
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/audio-1.png)
+按照脚本进行操作，如果一切正常，您将看到一条消息 The audio seems to be working如果看到错误消息，请按照消息详细信息解决问题，然后重试。
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/audio-2.png)
 至此，已完成VOICE KIT的物理组装
 ## PART 3 安装Google Assistant SDK
 
