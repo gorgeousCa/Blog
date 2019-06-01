@@ -27,9 +27,13 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 按照脚本进行操作，如果一切正常，您将看到一条消息 The audio seems to be working如果看到错误消息，请按照消息详细信息解决问题，然后重试。
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/a2.png)
 - 在终端输入alsamixer命令，来调节音量的大小，如下图所示：
-
-
-至此，已完成VOICE KIT的物理组装
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/v6.png)
+- 双击桌面上的“Check WiFi”图标。它将检查您的Raspberry Pi是否通过Wi-Fi连接到互联网。
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/w1.png)
+如果一切正常，您会看到一条消息The Wi-Fi connection seems to be working。
+如果看到错误，请单击右上角的网络图标，确认您已连接到有效的接入点。
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/w2.png)
+至此，已完成VOICE KIT的物理组装及测试
 ## PART 3 安装Google Assistant SDK
 
 
