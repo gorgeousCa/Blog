@@ -46,9 +46,11 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/3.png)
 - 创建一个新项目  
 将出现类似左侧图像的对话框。
-单击对话框右上角的“ 新建项目。  
+单击对话框右上角的“ 新建项目。
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice-066.jpg)
 - 输入并创建项目名称
-在栏中输入项目名称，然后单击“ 创建”。（您可以单独保留“位置”选项。） 
+在栏中输入项目名称，然后单击“ 创建”。（您可以单独保留“位置”选项。）
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice-066.jpg)
 - 打开项目
 现在我们已经创建了项目，我们需要选择它，以便我们可以打开我们想要使用的API。
 单击左侧导航中的“ 主页”链接。然后再次单击屏幕顶部的选择项目。然后选择刚刚创建的项目。
