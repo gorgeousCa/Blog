@@ -88,7 +88,30 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 对于Mac：选择打开方式> TextEdit
 对于Windows：选择打开方式>更多应用程序>记事本。
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice081.jpg)
-## PART 4 
+
+## PART 4  运行一些演示  
+- 我们提供了几个展示语音识别的演示应用程序和具有不同功能的Google智能助理，您可以将其用作模板来创建自己的应用程序。他们位于~/AIY-projects-python/src/examples/voice/。
+- 让设备像Google Home一样开始充当Google智能助理，请在桌面上双击“启动开发终端”并输入以下命令启动助手库演示应用：
+cd / AIY-projects-python / src / examples / voice
+
+./assistant_library_demo.py
+- 您将看到有关转到URL以授权您的应用程序的消息。由于此应用程序使用Google智能助理，因此您需要获得安全访问Google帐户数据的权限。要执行此操作，您必须通过转到打印出的URL并授予访问权限进行授权。Web浏览器应自动打开并加载此页面。如果没有，则将您在终端中看到的链接复制并粘贴到浏览器中，然后登录并授予访问权限。
+
+
+- 助手库应用程序内置了热门词检测功能。要与Google智能助理开始对话，请说“好的，谷歌”或“嘿谷歌”。完成后，按Ctrl-C结束应用程序。
+启动助手GRPC演示应用程序
+- 双击桌面上的“启动开发终端”，然后输入：
+cd / AIY-projects-python / src / examples / voice
+./assistant_grpc_demo.py
+与助手库演示不同，此演示不支持热门词检测。要向Google智能助理提问，请按街机按钮并发言。完成后，按下街机按钮并说“再见”，或者只需按Ctrl-C即可结束应用程序。
+
+
+- 启动CLOUD SPEECH演示应用程序
+名为的云语音演示cloudspeech_demo.py使用了Google Cloud Speech API。如果您不需要Google智能助理提供的对话，则这对于构建您自己的应用以识别语音命令非常有用。
+有关此演示的详细信息，请参阅以下有关构建自定义语音用户界面的部分。
+
+## PART 5 运用Google云中的语音识别API
+
 
 
 
