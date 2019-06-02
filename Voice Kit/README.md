@@ -120,6 +120,17 @@ PYTHON API库
 |aiy.voice.audio|用于录制和播放音频文件的API|
 |aiy.voice.tts|执行文本到语音转换的API（大声读取一些文本|
 |aiy.board|API使用套件附带的按钮和按钮的LED|
+- 例子
+aiy如果您从现有演示开始并修改它以执行您想要的操作，您可能会发现更容易学习Python API。  
+  
+这些文件已经安装在您的套件中~/AIY-projects-python/src/examples/。您还可以在GitHub上浏览示例，您可以在其中找到所有示例的源代码等。  
+例如，要了解有关aiy.voice.audioAPI的更多信息，请尝试运行voice_recorder.py示例：    
+cd / AIY-projects-python / src / examples / voice./voice_recorder.py    
+等待你按下按钮，然后开始记录你说的话。完成讲话后，再次按下按钮，它将播放录音。  
+
+要查看它是如何工作的，请在 Raspberry Pi上打开此文件或在此处查看源代码。然后开始调整代码。    
+
+
 
 
 
