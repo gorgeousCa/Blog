@@ -64,11 +64,10 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice075.jpg)
 - 创建凭据
 您将被定向到Google智能助理API的信息中心页面。从这里，您可以获得有关如何使用API的更多详细信息，并查看您正在进行的请求数量。
-但是现在，我们将创建一个凭证文件，以便演示可以告诉Google他们是谁以及他们参与的项目。
+但是现在，我们将创建一个凭证文件，以便演示可以告诉Google他们是谁以及他们参与的项目。  
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice076.jpg)
-
 单击“ 创建凭据”按钮。
-- 向项目添加凭据
+- 向项目添加凭据  
 您应该被定向到Credentials帮助页面。
 在“您使用的是哪种API？”下，选择Google Assistant API。
 在“你将从哪里调用API？” 字段，选择其他UI（例如Windows，CLI工具）。
