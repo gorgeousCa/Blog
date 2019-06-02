@@ -38,11 +38,11 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 ## PART 3 安装Google Assistant SDK
 -前往Google云端平台
 要使用Google智能助理和云语音API，您需要从Google的开发者控制台获取凭据。
-在您的计算机上（不是Raspberry Pi），请访问https://console.cloud.google.com/。
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/登录.jpg)
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/密码.jpg)
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice067.jpg)
+在您的计算机上（不是Raspberry Pi），请访问https://console.cloud.google.com/。  
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/%E7%99%BB%E5%BD%95.PNG)  
 使用您的Google帐户登录
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/%E5%AF%86%E7%A0%81.PNG)
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice067.jpg)
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice068.jpg)
 选择一个项目
 首先，我们必须创建一个项目来跟踪我们想要在Voice Kit上使用的所有API。在顶部栏中，单击“ 选择项目”。
