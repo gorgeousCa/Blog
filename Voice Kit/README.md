@@ -88,6 +88,7 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 对于Mac：选择打开方式> TextEdit
 对于Windows：选择打开方式>更多应用程序>记事本。
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice081.jpg)
+## PART 4 
 
 
 
