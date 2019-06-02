@@ -93,7 +93,6 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 - 我们提供了几个展示语音识别的演示应用程序和具有不同功能的Google智能助理，您可以将其用作模板来创建自己的应用程序。他们位于~/AIY-projects-python/src/examples/voice/。
 - 让设备像Google Home一样开始充当Google智能助理，请在桌面上双击“启动开发终端”并输入以下命令启动助手库演示应用：
 cd / AIY-projects-python / src / examples / voice
-
 ./assistant_library_demo.py
 - 您将看到有关转到URL以授权您的应用程序的消息。由于此应用程序使用Google智能助理，因此您需要获得安全访问Google帐户数据的权限。要执行此操作，您必须通过转到打印出的URL并授予访问权限进行授权。Web浏览器应自动打开并加载此页面。如果没有，则将您在终端中看到的链接复制并粘贴到浏览器中，然后登录并授予访问权限。
 
