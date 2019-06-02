@@ -109,11 +109,10 @@ cd / AIY-projects-python / src / examples / voice
 有关此演示的详细信息，请参阅以下有关构建自定义语音用户界面的部分。
 
 ## PART 5 运用Google云中的语音识别API
-PYTHON API库
+- PYTHON API库
 为了支持Voice Kit中的各种功能，我们构建了一个Python库，可以为您处理大量编程工作。它可以轻松地与Google 智能助理和云语音到文本等服务进行交互，并使用按钮和LED等套件外围设备。
 这些API内置于名为的Python包中aiy，该包预先安装在工具包的系统映像中。请确保您已安装最新的系统映像。
 要了解有关这些API的更多信息，请参阅API参考。特别是，以下API将与您的Voice Kit一起使用：
-
 |aiy.assistant|简化与Google Assistant API交互的API|
 | :--- | :--- |
 |aiy.cloudspeech|简化与Google Cloud语音转文本服务交互的API|
@@ -122,12 +121,10 @@ PYTHON API库
 |aiy.board|API使用套件附带的按钮和按钮的LED|
 - 例子
 aiy如果您从现有演示开始并修改它以执行您想要的操作，您可能会发现更容易学习Python API。  
-  
 这些文件已经安装在您的套件中~/AIY-projects-python/src/examples/。您还可以在GitHub上浏览示例，您可以在其中找到所有示例的源代码等。  
 例如，要了解有关aiy.voice.audioAPI的更多信息，请尝试运行voice_recorder.py示例：    
 cd / AIY-projects-python / src / examples / voice./voice_recorder.py    
 等待你按下按钮，然后开始记录你说的话。完成讲话后，再次按下按钮，它将播放录音。  
-
 要查看它是如何工作的，请在 Raspberry Pi上打开此文件或在此处查看源代码。然后开始调整代码。    
 
 
