@@ -109,6 +109,16 @@ cd / AIY-projects-python / src / examples / voice
 有关此演示的详细信息，请参阅以下有关构建自定义语音用户界面的部分。
 
 ## PART 5 运用Google云中的语音识别API
+PYTHON API库
+为了支持Voice Kit中的各种功能，我们构建了一个Python库，可以为您处理大量编程工作。它可以轻松地与Google 智能助理和云语音到文本等服务进行交互，并使用按钮和LED等套件外围设备。
+这些API内置于名为的Python包中aiy，该包预先安装在工具包的系统映像中。请确保您已安装最新的系统映像。
+要了解有关这些API的更多信息，请参阅API参考。特别是，以下API将与您的Voice Kit一起使用：
+
+|aiy.assistant||简化与Google Assistant API交互的API|
+|aiy.cloudspeech||简化与Google Cloud语音转文本服务交互的API|
+|aiy.voice.audio||用于录制和播放音频文件的API|
+|aiy.voice.tts||执行文本到语音转换的API（大声读取一些文本|
+|aiy.board||API使用套件附带的按钮和按钮的LED|
 
 
 
