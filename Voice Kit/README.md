@@ -96,18 +96,17 @@ cd / AIY-projects-python / src / examples / voice
 - 您将看到有关转到URL以授权您的应用程序的消息。由于此应用程序使用Google智能助理，因此您需要获得安全访问Google帐户数据的权限。要执行此操作，您必须通过转到打印出的URL并授予访问权限进行授权。Web浏览器应自动打开并加载此页面。如果没有，则将您在终端中看到的链接复制并粘贴到浏览器中，然后登录并授予访问权限。
 
 
-- 助手库应用程序内置了热门词检测功能。要与Google智能助理开始对话，请说“好的，谷歌”或“嘿谷歌”。完成后，按Ctrl-C结束应用程序。
+- 助手库应用程序内置了热门词检测功能。要与Google智能助理开始对话，请说“Ok，Google”或“Hi ,Google”。完成后，按Ctrl+C结束应用程序。
 启动助手GRPC演示应用程序
 - 双击桌面上的“启动开发终端”，然后输入：
-cd / AIY-projects-python / src / examples / voice
-./assistant_grpc_demo.py
-与助手库演示不同，此演示不支持热门词检测。要向Google智能助理提问，请按街机按钮并发言。完成后，按下街机按钮并说“再见”，或者只需按Ctrl-C即可结束应用程序。
+cd / AIY-projects-python / src / examples / voice./assistant_grpc_demo.py
+与助手库演示不同，此演示不支持热门词检测。要向Google智能助理提问，请按街机按钮并发言。完成后，按下街机按钮并说“Goodbey”，或者只需按Ctrl+C即可结束应用程序。
 
 
 - 启动CLOUD SPEECH演示应用程序
 名为的云语音演示cloudspeech_demo.py使用了Google Cloud Speech API。如果您不需要Google智能助理提供的对话，则这对于构建您自己的应用以识别语音命令非常有用。
 有关此演示的详细信息，请参阅以下有关构建自定义语音用户界面的部分。
-
+Y
 ## PART 5 运用Google云中的语音识别API
 - PYTHON API库
 为了支持Voice Kit中的各种功能，我们构建了一个Python库，可以为您处理大量编程工作。它可以轻松地与Google 智能助理和云语音到文本等服务进行交互，并使用按钮和LED等套件外围设备。
