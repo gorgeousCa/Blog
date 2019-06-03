@@ -47,10 +47,10 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 - 创建一个新项目  
 将出现类似左侧图像的对话框。
 单击对话框右上角的“ 新建项目。
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voic70.jpg)
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/%E6%96%B0%E5%BB%BA%E9%A1%B9%E7%9B%AE.PNG)
 - 输入并创建项目名称
 在栏中输入项目名称，然后单击“ 创建”。（您可以单独保留“位置”选项。）
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice071.jpg)
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE.PNG)
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice072.jpg)
 - 打开项目
 现在我们已经创建了项目，我们需要选择它，以便我们可以打开我们想要使用的API。
@@ -61,7 +61,7 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 - 导航到库
 现在我们需要打开Cloud Speech和Google Assistant API。
 如果左侧导航尚未显示，请单击页面左上角的三行菜单图标将其打开。将鼠标悬停在API和服务上，然后单击“ 库”。
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice075.jpg)
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/API.PNG)
 - 创建凭据
 您将被定向到Google智能助理API的信息中心页面。从这里，您可以获得有关如何使用API的更多详细信息，并查看您正在进行的请求数量。
 但是现在，我们将创建一个凭证文件，以便演示可以告诉Google他们是谁以及他们参与的项目。  
@@ -73,7 +73,7 @@ Voice Kit需要特殊版本的Raspbian操作系统，其中包括一些额外的
 在“你将从哪里调用API？” 字段，选择其他UI（例如Windows，CLI工具）。
 -最后，在“您将访问哪些数据？”下，选择“ 用户数据”我们这样做是因为我们将使用Google智能助理，这需要访问用户的数据。。
 完成所有操作后，单击“ 我需要什么凭据”？按钮。
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/voice077.jpg)
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Voice%20Kit/%E5%87%AD%E6%8D%AE.PNG)
 - 创建OAuth 2.0客户端ID
 输入客户端ID。我们建议使用您之前使用的相同项目名称。
 单击“ 创建OAuth客户端ID”按钮。
