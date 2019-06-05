@@ -8,9 +8,10 @@
 由于目前很多网站都是动态js生成页面，需要安装PhantomJS来获得js执行后的页面，而不是原本静态的html页面，我们再来装一下  
 - `pip install  phantomjs`  
 待安装完成后，我们先看一下pyspider对应的可执行命令  
-```Usage: pyspider [OPTIONS] COMMAND [ARGS]...
+```
+Usage: pyspider [OPTIONS] COMMAND [ARGS]...
   A powerful spider system in python.  
-Options:  
+  Options:  
   -c, --config FILENAME    a json file with default values for subcommands.  
                            {“webui”: {“port”:5001}}  
   --logging-config TEXT    logging config file for built-in python logging  
@@ -29,5 +30,9 @@ Options:
   --phantomjs-proxy TEXT   phantomjs proxy ip:port  
   --data-path TEXT         data dir path  
   --version                Show the version and exit.  
-  --help                   Show this message and exit.'''
+  --help                   Show this message and exit.
+  '''
+  
+这里我们直接执行如下命令启动,更复杂的命令参看文档
+`pyspider  --data-path  数据存放路径  all`
 
