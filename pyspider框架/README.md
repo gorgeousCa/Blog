@@ -1,4 +1,4 @@
-# pyspiderk 框架
+# pyspider 框架
 ## 简介
 - 通过python脚本进行结构化信息的提取，follow链接调度抓取控制，实现最大的灵活性
 - 通过web化的脚本编写、调试环境。web展现调度状态
