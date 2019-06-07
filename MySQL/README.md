@@ -42,7 +42,7 @@ Cursor:游标对象，用于执行查询和获取结果
   conn.close()
   ``` 
    我们用Navicat打开数据库，查看一下结果:  
-![Iamge text](https://github.com/gorgeousCa/Dayup/tree/master/MySQL/1.png)
+![Iamge text](https://github.com/gorgeousCa/Dayup/blob/master/MySQL/1.png)
 
 
 
