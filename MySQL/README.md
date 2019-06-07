@@ -1,6 +1,6 @@
 # Python 操作 MySQL 数据库  
 #### 使用环境：Windows+python3.x+MySQL5.5+Navicat  
-### 创建连接
+### *创建连接*
 - 准备工作，想要使用Python操作MySQL，首先需要安装MySQL-Python的包，在Python 3.x下，该包已经改名为MySQLClient。可以使用pip方式安装:  
     pip install MySQLClient  
 * 如下图所示:  
@@ -22,7 +22,7 @@ Cursor:游标对象，用于执行查询和获取结果
  - 运行结果如下:  
  ![Iamge text](https://github.com/gorgeousCa/Dayup/blob/master/MySQL/20190303211447.png)   
  从结果中我们可以看见成功创建了一个Connection和Cursor对象
- ### 建立数据库，进行一些简单操作
+ ### *建立数据库，进行一些简单操作*
  - 简单的创建一个student表，并且插入一些数据。student表中只有两个字段：stuid和stuname。代码如下：  
   ```import  
   conn=MySQLdb.connect(host='localhost',port=3306,user='root',passwd='mysql',db='lms',charset='utf8')`  
