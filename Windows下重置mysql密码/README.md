@@ -5,7 +5,7 @@
 如下图所示：    
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Windows%E4%B8%8B%E9%87%8D%E7%BD%AEmysql%E5%AF%86%E7%A0%81/mysql1.PNG)
 
-## 这里我主要讲一下 mysql 用户密码的重置步骤。
+### *这里我主要讲一下 mysql 用户密码的重置步骤。*
 
 - 停止 MySQL 服务
 快捷键 windows + R ；  
@@ -18,19 +18,19 @@
 默认安装目录为 C:\Program Files\MySQL\MySQL Server     
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Windows%E4%B8%8B%E9%87%8D%E7%BD%AEmysql%E5%AF%86%E7%A0%81/bin.PNG)
 
-3. 进入安全模式 
+- 进入安全模式 
 在 bin 目录下输入 mysqld --skip-grant-tables ，跳过权限检查启动 mysql。  
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Windows%E4%B8%8B%E9%87%8D%E7%BD%AEmysql%E5%AF%86%E7%A0%81/bin1.PNG)
 
 如果你配置了 my.ini 文件，则需要将其引入： mysqld --defaults-file="../my.ini" --skip-grant-tables 
 
-4. 重置账户密码
+- 重置账户密码
 打开另一个命令提示符窗口（别关闭安全模式窗口），同样切换到 mysql \ bin 目录，输入 mysql 跳过权限验证连接数据库。  
 进入到终端当中，敲入 mysql -u root -p 命令然后回车，当需要输入密码时，直接按enter键，便可以不用密码登录到数据库当中  
 mysql> update user set password=password("你的新密码") where user="root";      
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Windows%E4%B8%8B%E9%87%8D%E7%BD%AEmysql%E5%AF%86%E7%A0%81/bin2.PNG)  
 
-5. 刷新权限表
+- 刷新权限表
 执行   flush privileges;   
 命令刷新权限表，密码已经重置完成，输入quit  退出 。    
 mysql> flush privileges;  
