@@ -19,12 +19,11 @@ Cursor:游标对象，用于执行查询和获取结果
  cursor.close()   
  conn.close()
  ```    
- 运行结果如下:  
+ - 运行结果如下:  
  ![Iamge text](https://github.com/gorgeousCa/Dayup/blob/master/MySQL/20190303211447.png)   
- 
  从结果中我们可以看见成功创建了一个Connection和Cursor对象
  ### 建立数据库，进行一些简单操作
-   1.简单的创建一个student表，并且插入一些数据。student表中只有两个字段：stuid和stuname。代码如下：  
+ - 简单的创建一个student表，并且插入一些数据。student表中只有两个字段：stuid和stuname。代码如下：  
   ```import  
   conn=MySQLdb.connect(host='localhost',port=3306,user='root',passwd='mysql',db='lms',charset='utf8')`  
   cur=conn.cursor()  
