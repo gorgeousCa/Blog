@@ -13,15 +13,15 @@
 
 
 
-- Virtualenv 的使用非常简单，首先安装 Virtualenv，打开命令行工具，输入 pip install virtualenv 命令即可安装 Virtualenv。
+- Virtualenv 的使用非常简单，首先安装 Virtualenv，打开命令行工具，输入 pip install virtualenv 命令即可安装 Virtualenv。  
 `pip install virtualenv`
 
    
 
-- 安装成功后就可以开始创建虚拟环境，指定一个你喜欢的目录，Virtualenv 会把这个新的虚拟环境装到你指定目录下。例如我把它装到 D:\PyCharm_WorkSpace目录下，并将虚拟环境命名为 blogproject_env（也可以取任何你喜欢的名字）。在命令栏运行如下命令：
+- 安装成功后就可以开始创建虚拟环境，指定一个你喜欢的目录，Virtualenv 会把这个新的虚拟环境装到你指定目录下。例如我把它装到 D:\PyCharm_WorkSpace目录下，并将虚拟环境命名为 blogproject_env（也可以取任何你喜欢的名字）。在命令栏运行如下命令：  
 `virtualenv  D:\PyCharm_WorkSpace\blogproject_env`
 
  
 
-- 虚拟环境已经创建好了，我们需要激活这个环境，运行 blogproject_env\Scripts\ 目录下的 activate 程序激活它：
+- 虚拟环境已经创建好了，我们需要激活这个环境，运行 blogproject_env\Scripts\ 目录下的 activate 程序激活它：  
 `D:\PyCharm_WorkSpace\blogproject_env\Scripts\activate`
