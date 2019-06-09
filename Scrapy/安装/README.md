@@ -17,6 +17,7 @@ wheel可以直接安装 pip install wheel
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted  
 这个url是Python的非官方二进制扩展包的汇总页面，如果打开上面的URL后显示的界面是下面这个样子，可以根据模块名字搜索得到包的下载版本列表。  
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/1.1.PNG)
+
 - 选择符合你Python和Windows版本的wheel文件下载
 
 
