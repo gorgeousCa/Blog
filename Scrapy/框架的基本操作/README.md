@@ -28,9 +28,9 @@ Scrapy 使用了 Twisted异步网络库来处理网络通讯。整体架构大�
 - 解析出实体（Item）,则交给实体管道进行进一步的处理
 - 解析出的是链接（URL）,则把URL交给调度器等待抓取
 ### 基本命令
-1. scrapy startproject 项目名称
+- scrapy startproject 项目名称
    - 在当前目录中创建中创建一个项目文件（类似于Django）
-2. scrapy genspider [-t template] <name> <domain>
+- scrapy genspider [-t template] <name> <domain>
    - 创建爬虫应用
    如：  
       scrapy gensipider -t basic oldboy oldboy.com  
@@ -38,9 +38,9 @@ Scrapy 使用了 Twisted异步网络库来处理网络通讯。整体架构大�
    PS:  
       查看所有命令：scrapy gensipider -l
       查看模板命令：scrapy gensipider -d 模板名称
-3. scrapy list  
+- scrapy list  
    - 展示爬虫应用列表
-4. scrapy crawl 爬虫应用名称  
+- scrapy crawl 爬虫应用名称  
    - 运行单独爬虫应用
 
 
