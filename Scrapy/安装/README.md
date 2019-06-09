@@ -1,11 +1,12 @@
 # Windows 10 安装 scrapy
+### 简介：  
 Scrapy 是一个快速的高层次的屏幕抓取和网页爬虫框架，爬取网站，从网站页面得到结构化的数据，它有着广泛的用途，从数据挖掘到监测和自动测试，Scrapy完全用Python实现，完全开源，代码托管在Github上，可运行在Linux，Windows，Mac和BSD平台上，基于Twisted的异步网络库来处理网络通讯，用户只需要定制开发几个模块就可以轻松的实现一个爬虫，用来抓取网页内容以及各种图片。
-- 安装Scarpy依赖的包
+### 安装Scarpy依赖的包
 wheel
 Lxml
 twisted
 Pywin32 
-其中Twisted在windows上安装时需要依赖 Microsoft Visual C++ 14.0进行编译,如果没有这个环境在安装时必然报错，一般提示信息是这样的：
+- 其中Twisted在windows上安装时需要依赖 Microsoft Visual C++ 14.0进行编译,如果没有这个环境在安装时必然报错，一般提示信息是这样的：
 ![Image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/2.PNG)
 ```running build_ext
 building 'twisted.test.raiser' extension
@@ -22,8 +23,13 @@ https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted
 - 待下载完成后（当然这可能要等待很久的时间，可能会失败很多次，哎呀呀，血的教训哪），在windows c 下，切换到wheel 文件所在的目录之下，并使用  
 `pip install  Twisted-19.2.1-cp37-cp37m-win_amd64.whl`
 来完成安装，如下图所示：  
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/4.PNG)  
-
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/4.PNG) 
+### 安装scrapy
+- 使用 `pip install scrapy`,如下图所示：
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/5.PNG) 
+安装成功。
+查看一下安装的版本：
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/6.PNG) 
 
 
 
