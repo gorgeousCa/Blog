@@ -33,8 +33,8 @@ Scrapy 使用了 Twisted异步网络库来处理网络通讯。整体架构大�
 2. scrapy genspider [-t template] <name> <domain>
    - 创建爬虫应用
    如：  
-      scrapy gensipider -t basic oldboy oldboy.com
-      scrapy gensipider -t xmlfeed autohome autohome.com.cn
+      scrapy gensipider -t basic oldboy oldboy.com  
+      scrapy gensipider -t xmlfeed autohome autohome.com.cn  
    PS:  
       查看所有命令：scrapy gensipider -l
       查看模板命令：scrapy gensipider -d 模板名称
