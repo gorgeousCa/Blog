@@ -20,15 +20,15 @@ https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/1.1.PNG)
 
 - 选择符合你Python和Windows版本的wheel文件下载，如我下载的是 Twisted-19.2.1-cp37-cp37m-win_amd64.whl 
-- 待下载完成后（当然这可能要等待很久的时间，可能会失败很多次，哎呀呀，血的教训哪），在windows c 下，切换到wheel 文件所在的目录之下，并使用  
-`pip install  Twisted-19.2.1-cp37-cp37m-win_amd64.whl`
+- 待下载完成后（当然这可能要等待很久的时间，可能会失败很多次，哎呀呀，血的教训哪），在windows c 下，切换到wheel 文件所在的目录之下，并使用    
+`pip install  Twisted-19.2.1-cp37-cp37m-win_amd64.whl`  
 来完成安装，如下图所示：  
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/4.PNG) 
-### 安装scrapy
-- 使用 `pip install scrapy`,如下图所示：
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/5.PNG) 
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/4.PNG)   
+### 安装scrapy  
+- 使用 `pip install scrapy`,如下图所示：  
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/5.PNG)   
 安装成功。
-查看一下安装的版本：
+查看一下安装的版本：  
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/6.PNG) 
 
 
