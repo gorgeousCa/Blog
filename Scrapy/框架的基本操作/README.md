@@ -45,7 +45,10 @@ Scrapy 使用了 Twisted异步网络库来处理网络通讯。整体架构大�
 ### 创建简单项目
    - 在终端下输入  
   `scrapy startproject myfrsit`   
-![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E6%A1%86%E6%9E%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/8.PNG)
+![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E6%A1%86%E6%9E%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/8.PNG)  
+   - 我们使用Pycharm 打开刚刚创建的项目，可看到其文件结构，如下图所示：  
+   ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E6%A1%86%E6%9E%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/9.PNG)
+
    
 
 
