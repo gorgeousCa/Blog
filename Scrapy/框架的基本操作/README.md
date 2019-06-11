@@ -48,6 +48,24 @@ Scrapy 使用了 Twisted异步网络库来处理网络通讯。整体架构大�
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E6%A1%86%E6%9E%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/8.PNG)  
    - 我们使用Pycharm 打开刚刚创建的项目，可看到其文件结构，如下图所示：  
    ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E6%A1%86%E6%9E%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/9.PNG)
+   - 我们在终端下使用 scrapy genspider jiansu(文件名）来在spiders下创建文件,使用pycharm打开，并输入以下代码：  
+   
+   ```import scrapy
+    from jianshu.items import JianshuItem
+    class JiansuSpider(scrapy.Spider):
+    name = 'jiansu'
+    allowed_domains = ['souke.xdf.cn/']
+    start_urls = ['http://souke.xdf.cn/Teacher/0.html']
+    def parse(self, response):
+       with open("exmple.txt","w",encoding="utf-8") as file:
+           file.write(response.text)
+           ```
+           
+ - 在终端上使用 scrapy crawl jiansu 执行程序，如下图所示，即代表程序运行完毕：
+ - 打卡pycharm，我们可以发现生成了exmple.txt，打开文件，我们可以看到网址http://souke.xdf.cn/Teacher/0.html的网页 “源码”  
+ 
+
+   
 
    
 
