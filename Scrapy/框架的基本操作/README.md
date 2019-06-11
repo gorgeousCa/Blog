@@ -64,11 +64,9 @@ Scrapy 使用了 Twisted异步网络库来处理网络通讯。整体架构大�
            
            
  - 在终端上使用 scrapy crawl jiansu 执行程序，如下图所示，即代表程序运行完毕：  
- ![image]()
- 
- 
-
- - 打卡pycharm，我们可以发现生成了exmple.txt，打开文件，我们可以看到网址http://souke.xdf.cn/Teacher/0.html的网页 “源码”  
+ ![image](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E6%A1%86%E6%9E%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/12.PNG)
+ - 打卡pycharm，我们可以发现生成了exmple.txt，打开文件，我们可以看到网址http://souke.xdf.cn/Teacher/0.html的网页 “源码”  :  
+  ![image](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E6%A1%86%E6%9E%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/13.PNG)
  
 
    
