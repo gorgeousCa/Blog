@@ -50,8 +50,7 @@ Scrapy 使用了 Twisted异步网络库来处理网络通讯。整体架构大�
    ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E6%A1%86%E6%9E%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/9.PNG)
    - 我们在终端下使用 scrapy genspider jiansu(文件名）来在spiders下创建文件,使用pycharm打开，并输入以下代码：  
    
-   ```
-   import scrapy
+   ```import scrapy
     from jianshu.items import JianshuItem
     class JiansuSpider(scrapy.Spider):
     name = 'jiansu'
