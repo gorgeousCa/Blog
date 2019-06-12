@@ -6,7 +6,8 @@
 
 - 启用scrapy shell <url>
   例如在Windows命令终端下，输入scrapy shell www.jianshu.com 命令即可启用Scrapy shell 访问简书主页，并在终端下会输入如下大量信息。  
-  ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E7%BB%88%E7%AB%AF%E4%B8%8E%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6/14.PNG)
+  ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E7%BB%88%E7%AB%AF%E4%B8%8E%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6/14.PNG)  
+如上图所示，表示成功访问网页。
   
 
 
