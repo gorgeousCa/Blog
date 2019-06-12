@@ -5,6 +5,7 @@
 一旦熟悉了Scrapy终端后，能其在开发和调试spider时发挥的巨大作用。*
 
 - 启用scrapy shell <url>
+  例如在Windows命令终端下，输入scrapy shell www.jianshu.com 命令即可启用Scrapy shell 访问简书主页，并在终端下会输入如下大量信息。
 
 
 
