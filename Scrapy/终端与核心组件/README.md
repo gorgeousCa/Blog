@@ -4,6 +4,6 @@
 该终端是用来测试XPath或CSS表达式，查看他们的工作方式及从爬取的网页中提取的数据。 在编写您的spider时，该终端提供了交互性测试您的表达式代码的功能，免去了每次修改后运行spider的麻烦。
 一旦熟悉了Scrapy终端后，能其在开发和调试spider时发挥的巨大作用。*
 
-- 启用scrapy shell
+- 启用scrapy shell <url>
 
 
