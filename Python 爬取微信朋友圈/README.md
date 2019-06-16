@@ -22,9 +22,7 @@
    如下图：    
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/javav.PNG)  
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B75.PNG)   
-   
- 
-   
+  
 ## 三、安卓开发环境配置     
  - 如果我们要使用Android设备做App抓取的话，还需要下载和配置Android SDK.  
   这里我们直接下载Android Studio。下载后直接安装即可。  
