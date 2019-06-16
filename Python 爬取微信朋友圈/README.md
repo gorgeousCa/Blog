@@ -17,8 +17,10 @@
   ```JAVA_HOME----D:\Java\jdk1.6.0” （根据自己安装路径填写）       
      CLASSPATH--- .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;     
     PATH-----;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;  
-   ```
-   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B7.PNG)  
+    
+    ```
+    
+  ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B7.PNG)  
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B71.PNG)
   - 打开cmd验证是否安装成功，输入java -version，然后输入javac能显示版本号和下面的帮助信息说明安装成功:        
    如下图：    
