@@ -11,7 +11,6 @@
 所有的Flask应用程序都必须创建一个 应用程序实例 。使用web服务器网关接口协议将所有从客户端接收的请求传递给这个对象处理。这个应用程序实例就是Flask类的一个对象，通常使用下面的方式创建：  
        1.from flask import Flask  
         2.app = Flask(__name__)  
-    
 - 路由和视图函数   
 程序实例保存了一个 URL 到 Python 函数的映射关系，处理 URL 和函数之间关系的程序成为路由。  
 Flask 中定义路由最简单的方式是使用程序提供的 app.route 修饰器，把修饰的函数注册为路由。  
@@ -102,13 +101,11 @@ Web 表单是 Web 应用程序的基本功能。
 | AnyOf | 验证输入值在可选列表中 |
 | NoneOf | 验证输入值不在可选列表中 |
 
-
 使用 Flask-WTF 需要配置参数 SECRET\_KEY。
 CSRF\_ENABLED是为了CSRF（跨站请求伪造）保护。 SECRET\_KEY用来生成加密令牌，当CSRF激活的时候，该设置会根据设置的密匙生成加密令牌。
 ## 代码验证
 
 ### 使用 html 自带的表单
-
 - 创建模板文件 `login.html`，在其中直接写form表单：
 
 ```html
@@ -118,7 +115,6 @@ CSRF\_ENABLED是为了CSRF（跨站请求伪造）保护。 SECRET\_KEY用来生
     <label>确认密码：</label><input type="password" name="password2" placeholder="请输入确认密码"><br/>
     <input type="submit" value="注册">
 </form>
-
 {% for message in get_flashed_messages() %}
     {{ message }}
 {% endfor %}
@@ -150,7 +146,6 @@ def demo1():
 ```
 
 ### 使用 Flask-WTF 实现表单
-
 - 配置参数，关闭 CSRF 校验
 
 ```python
