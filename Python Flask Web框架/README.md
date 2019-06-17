@@ -22,9 +22,9 @@ Flask 中定义路由最简单的方式是使用程序提供的 app.route 修饰
    修饰器是 Python 语言的标准特性，可以使用不同的方式修改函数的行为  
 把 index 函数注册为程序跟地址的处理程序，不过在 Pthon 代码中嵌入响应字符串会导致代码难以维护，以后将会介绍生成响应的正确方法。像 index 这样的函数称为视图函数。  
 地址中也可以包含可变部分，可以在路由中定义可变的这部分  
-	@app.route('/user/<name>')
+	``` @app.route('/user/<name>')
 	def user(name):
-	return '<h1>Hello, %s!</h1>' % name   
+	return '<h1>Hello,%s!</h1>' % name   
 尖括号中的内容是动态部分，任何能匹配静态部分的 URL 都会映射到这个路由上。  
 - 服务启动
 应用程序实例有一个run方法用于启动Flask集成的web服务：
@@ -162,7 +162,6 @@ def demo1():
 ```
 
 > CSRF:跨站请求伪造，后续会讲到
-
 #### 模板页面：
 
 ```html
