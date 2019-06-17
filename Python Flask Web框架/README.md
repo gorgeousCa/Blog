@@ -24,11 +24,11 @@ Flask 中定义路由最简单的方式是使用程序提供的 app.route 修饰
 地址中也可以包含可变部分，可以在路由中定义可变的这部分  
 	``` @app.route('/user/<name>')
 	def user(name):
-	return '<h1>Hello,%s!</h1>' % name   
+	return '<h1>Hello,%s!</h1>' % name   ```
 尖括号中的内容是动态部分，任何能匹配静态部分的 URL 都会映射到这个路由上。  
 - 服务启动
 应用程序实例有一个run方法用于启动Flask集成的web服务：
-	
+
 	if __name__ == '__main__':
  	app.run(debug=True)
 __name__ == '__main__'在此处使用是用于确保web服务已经启动当脚本被立即执行。当脚本被另一个脚本导入，它被看做父脚本将启动不同的服务，所以app.run()调用会被跳过。
@@ -53,8 +53,7 @@ __name__ == '__main__'在此处使用是用于确保web服务已经启动当脚�
 	if __name__ == '__main__':
  	app.run(debug=True)
 运行如下图所示：
-![Image text](https://github.com/gorgeousCa/Dayup/blob/master/Python%20Flask%20Web%E6%A1%86%E6%9E%B6/flaskr.png)
-
+![Image text](https://github.com/gorgeousCa/Dayup/blob/master/Python%20Flask%20Web%E6%A1%86%E6%9E%B6/flaskr.png)  
 如果上面的例子继续写下去的时候，我们或许会在视图views中引入models文件以操作数据，在models文件中引入manage文件中的db以定义类和字段，然后在manage文件中引入views文件以注册蓝图（register_blueprint），这样就出现了a引入b，b引入c，c引入a的问题，就会报错，
 解决办法就是另外创建一个ext.py文件，专门用来创建db，代码如下：
 	
@@ -105,9 +104,7 @@ Web 表单是 Web 应用程序的基本功能。
 
 
 使用 Flask-WTF 需要配置参数 SECRET\_KEY。
-
 CSRF\_ENABLED是为了CSRF（跨站请求伪造）保护。 SECRET\_KEY用来生成加密令牌，当CSRF激活的时候，该设置会根据设置的密匙生成加密令牌。
-
 ## 代码验证
 
 ### 使用 html 自带的表单
