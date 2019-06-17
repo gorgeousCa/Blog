@@ -120,7 +120,6 @@ CSRF\_ENABLED是为了CSRF（跨站请求伪造）保护。 SECRET\_KEY用来生
 {% endfor %}
 
 ```
-
 - 视图函数中获取表单数据验证登录逻辑：
 
 ```python
