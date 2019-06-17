@@ -16,9 +16,9 @@
 程序实例保存了一个 URL 到 Python 函数的映射关系，处理 URL 和函数之间关系的程序成为路由。  
 Flask 中定义路由最简单的方式是使用程序提供的 app.route 修饰器，把修饰的函数注册为路由。  
 
-	@app.route('/')
-	def index():
-     return '<h1>Hello World!</h1>'  
+	@app.route('/')  
+	def index():  
+        return '<h1>Hello World!</h1>'     
    修饰器是 Python 语言的标准特性，可以使用不同的方式修改函数的行为  
 把 index 函数注册为程序跟地址的处理程序，不过在 Pthon 代码中嵌入响应字符串会导致代码难以维护，以后将会介绍生成响应的正确方法。像 index 这样的函数称为视图函数。  
 地址中也可以包含可变部分，可以在路由中定义可变的这部分  
@@ -31,7 +31,6 @@ Flask 中定义路由最简单的方式是使用程序提供的 app.route 修饰
 	
 	if __name__ == '__main__':
  	app.run(debug=True)
-
 __name__ == '__main__'在此处使用是用于确保web服务已经启动当脚本被立即执行。当脚本被另一个脚本导入，它被看做父脚本将启动不同的服务，所以app.run()调用会被跳过。
 一旦服务启动，它将进入循环等待请求并为之服务。这个循环持续到应用程序停止，例如通过按下Ctrl-C。
 有几个选项参数可以给app.run()配置web服务的操作模式。在开发期间，可以很方便的开启debug模式，将激活 debugger 和 reloader 。这样做是通过传递debug为True来实现的。
