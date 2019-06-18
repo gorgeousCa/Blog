@@ -66,18 +66,18 @@
   - 将D:\python和D:\python\Scripts，添加到环境变量path下:
   - 打开cmd输入python,出现版本号，然后输入print("hello world!"):
   ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/hello%20world.png)
-  ## 七、安装node.js
+  ## 安装node.js
    - 下载官网地址：https://nodejs.org/en/download/23:
    ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1-6.PNG)
     - 下载后一路傻瓜式安装，安装完成后，运行cmd，输入node –v查看版本号，然后输入npm:
      ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1.1.1.png)
     - 出现如上图信息，表示node.js安装成功。npm是一个node包管理和分发工具，有了npm，后面就可以输入指令在线安装appium(打开 cmd输入：npm install –g appium但是一般不推荐这种，下载比较慢，所以用下面这种客户端安装)
-  ## 八、安装appium
+  ## 安装appium
    - 下载安装地址：https://bitbucket.org/appium/appium.app/downloads/16:  
 
    - 直接双击appium-installer.exe文件安装就好，桌面会生成一个appium的图标，启动后界面显示如下
      ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/qppium.png)
-  ## 九、安装.net framework
+  ## 安装.net framework
    - Appium是用.net开发的，所以需要安装.net framework4.5，下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=3065332
      ![image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1.1.3.png)
    
