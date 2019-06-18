@@ -22,7 +22,7 @@
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/javav.PNG)  
    ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B75.PNG)   
   
-## 三、安卓开发环境配置     
+## 安卓开发环境配置     
  - 如果我们要使用Android设备做App抓取的话，还需要下载和配置Android SDK.  
   这里我们直接下载Android Studio。下载后直接安装即可。  
   ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B74.PNG)  
@@ -48,12 +48,12 @@
     ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/%E6%8D%95%E8%8E%B71-2.PNG)  
    2.path里面添加C:\Users\lenovo\AppData\Local\Android\Sdk\tools和C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools
      ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/1-3.PNG)  
-## 四、adb环境
+## adb环境
   - 因为adb是在C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools这个目录下的，所以上面添加了环境变量后，可以直接在cmd里面运行了。  
   - 在cmd输入adb -version可以查看对应版本号
   ![Iamge](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/adb.png)
   
-## 五、连接手机  
+## 连接手机  
   - 手机用数据线连电脑，如果安装了91助手或者360什么的可以先下载手机驱动，确认手机能连上
   
  - 打开cmd输入：adb devices,当屏幕上出现一串字符，后面显示devices说明连接成功（出现其它的提示，得检查自己的环境了）
