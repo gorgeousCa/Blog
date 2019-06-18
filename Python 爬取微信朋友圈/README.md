@@ -58,7 +58,7 @@
   
  - 打开cmd输入：adb devices,当屏幕上出现一串字符，后面显示devices说明连接成功（出现其它的提示，得检查自己的环境了）
  ![Image](https://github.com/gorgeousCa/Dayup/blob/master/Python%20%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E6%9C%8B%E5%8F%8B%E5%9C%88/adbdevices.png)
-## 六、Python安装:
+## Python安装:
   - 下载Python安装包，选择2.7版本和3.6版本都可以:
   官网下载地址：https://www.python.org/15
   - 小编的安装目录在d盘：D:\python
