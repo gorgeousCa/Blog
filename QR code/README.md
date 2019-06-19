@@ -1,13 +1,13 @@
 # MyQR 生成个性二维码
 python中有一个好玩的库，不仅可以生成各种花色的二维码，还可以生成动态二维码。MyQR是一个能够生成自定义二维码的第三方库，可以根据需要生成普通二维码、带图片的艺术二维码，也可以生成动态二维码。效果图如下：
-<div align=center><img width="150" height="150" src="https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/test1.png"/></div>
+<div align=center><img width="150" height="150" src="https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/test1.png"/></div>  
 - MyQR是Python的一个第三方库，专门用来制作个性二维码。在Python调用MyQR之前需要先安装MyQR库:
-  安装方法  
+  安装方法    
 - 通过【Windows】+【R】键打开一个对话框，在对话框中输入cmd并确定，即可打开cmd窗口。  
 - 在cmd窗口中输入pip install MyQR并回车，即可下载。  
-![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/2.png)    
+![Alt text](https://github.com/gorgeousCa/Dayup/blob/master/QR%20code/2.png)      
 - 当出现Successfully installed MyQR字样时说明安装成功，就可以愉快地使用啦！  
-- 实战演练
+- 实战演练  
    ``` from MyQR import myqr
     import os
     myqr.run(
