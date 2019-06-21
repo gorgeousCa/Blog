@@ -1,5 +1,5 @@
 # 搭建个人博客网站
-###### hexo + github pages + mac
+###### 利用 hexo + github pages + mac
 ### 一、准备工作：
 - 安装Node.js和Git
 Mac上安装可以选择图形化方式和终端安装，此处直接使用客户端方式安装。Node.js官网下载文件，根据提示安装即可，安装成功后在目录/usr/local/bin目录下。测试Node.js和npm，出现下述信息则安装成功。  
