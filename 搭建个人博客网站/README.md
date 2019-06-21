@@ -81,7 +81,7 @@ ssh-keygen -t rsa -C "your_email@exampl"
 `hexo clean`  //清楚缓存文件(db.json)和已生成的静态文件(public)
 
 - 配置hexo-theme-yilia.git
-hexo-theme-yilia.git主题为精于心、简于形，简洁的界面中能够呈现丰富的内容，访问next官网查看配置内容。配置文件主要修改主题next文件夹中_config.yml文件，next有三种主题选择，分别为Muse、Mist、Pisces三种，个人选择的是Pisces主题。主题增加标签、分类、归档、喜欢（书籍和电影信息流）、评论等功能，博客界面如下所示。
+hexo-theme-yilia.git主题为精于心、简于形，简洁的界面中能够呈现丰富的内容，访问next官网查看配置内容。配置文件主要修改主题next文件夹中_config.yml文件，next有三种主题选择，分别为Muse、Mist、Pisces三种，个人选择的是Pisces主题。主题增加标签、分类、归档、喜欢（书籍和电影信息流）、评论等功能，博客界面如下所示。  
 ![image](https://github.com/gorgeousCa/Dayup/blob/master/搭建个人博客网站/5.png)
 
 
