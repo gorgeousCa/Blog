@@ -51,7 +51,6 @@ Mac上安装可以选择图形化方式和终端安装，此处直接使用客�
 - 其中将repository中gorgeousCa改为自己的用户名，注意type、repository、branch后均有空格。通过如下命令在myblog下生成静态文件并上传到服务器：  
 `hexo g `       
 `hexo d`        
-
 - 若执行hexo g:
 出错则执行npm install hexo --save，若执行hexo d出错则执行npm install hexo-deployer-git --save。错误修正后再次执行hexo g和hexo d上传到服务器。       
 若未关联GitHub，执行hexo d时会提示输入GitHub账号用户名和密码，即:     
