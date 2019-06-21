@@ -56,7 +56,6 @@ __name__ == '__main__'在此处使用是用于确保web服务已经启动当脚�
 解决办法就是另外创建一个ext.py文件，专门用来创建db，代码如下：
 	
      from flask_sqlalchemy import SQLAlchemy
- 
      db = SQLAlchemy()
 注意：此时先不讲app传入
 然后在manage.py文件中，导入db，然后初始化，将app传进去：
