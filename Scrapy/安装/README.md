@@ -24,7 +24,7 @@ https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted
 `pip install  Twisted-19.2.1-cp37-cp37m-win_amd64.whl`  
 来完成安装，如下图所示：  
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/4.PNG)   
-### PART 3 安装scrapy  
+### PART3 安装scrapy  
 - 使用 `pip install scrapy`,如下图所示：  
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E5%AE%89%E8%A3%85/5.PNG)   
 安装成功。
