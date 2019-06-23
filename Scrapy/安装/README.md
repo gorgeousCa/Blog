@@ -1,7 +1,7 @@
 # Windows 10 安装 scrapy
-### PART 1 简介：  
+### PART1 简介：  
 Scrapy 是一个快速的高层次的屏幕抓取和网页爬虫框架，爬取网站，从网站页面得到结构化的数据，它有着广泛的用途，从数据挖掘到监测和自动测试，Scrapy完全用Python实现，完全开源，代码托管在Github上，可运行在Linux，Windows，Mac和BSD平台上，基于Twisted的异步网络库来处理网络通讯，用户只需要定制开发几个模块就可以轻松的实现一个爬虫，用来抓取网页内容以及各种图片。
-### PART 2 安装Scarpy依赖的包
+### PART2 安装Scarpy依赖的包
 wheel
 Lxml
 twisted
