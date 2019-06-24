@@ -41,11 +41,9 @@ Web 表单是 Web 应用程序的基本功能。
 CSRF\_ENABLED是为了CSRF（跨站请求伪造）保护。 SECRET\_KEY用来生成加密令牌，当CSRF激活的时候，该设置会根据设置的密匙生成加密令牌。
 
 ## 代码验证
-
 ### 使用 html 自带的表单
 
 - 创建模板文件 `login.html`，在其中直接写form表单：
-
 ```html
 <form method="post">
     <label>用户名：</label><input type="text" name="username" placeholder="请输入用户名"><br/>
@@ -114,7 +112,6 @@ from flask_wtf import FlaskForm
 from wtforms import SubmitField,StringField,PasswordField
 #导入wtf扩展提供的表单验证器
 from wtforms.validators import DataRequired,EqualTo
-
 app = Flask(__name__)
 app.config['SECRET_KEY']='SECRET_KEY'
 
