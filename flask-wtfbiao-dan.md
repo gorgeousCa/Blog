@@ -57,7 +57,6 @@ CSRF\_ENABLED是为了CSRF（跨站请求伪造）保护。 SECRET\_KEY用来生
 {% endfor %}
 
 ```
-
 - 视图函数中获取表单数据验证登录逻辑：
 ```python
 @app.route('/demo1', methods=["get", "post"])
@@ -114,7 +113,6 @@ from wtforms import SubmitField,StringField,PasswordField
 from wtforms.validators import DataRequired,EqualTo
 app = Flask(__name__)
 app.config['SECRET_KEY']='SECRET_KEY'
-
 #自定义表单类，文本字段、密码字段、提交按钮
 class RegisterForm(FlaskForm):
     username = StringField("用户名：", validators=[DataRequired("请输入用户名")], render_kw={"placeholder": "请输入用户名"})
