@@ -1,7 +1,6 @@
 # Web表单
 
 Web 表单是 Web 应用程序的基本功能。
-
 它是HTML页面中负责数据采集的部件。表单有三个部分组成：表单标签、表单域、表单按钮。表单允许用户输入数据，负责HTML页面数据采集，通过表单将用户输入的数据提交给服务器。
 
 在Flask中，为了处理web表单，我们可以使用 Flask-WTF 扩展，它封装了 WTForms，并且它有验证表单数据的功能
@@ -66,7 +65,6 @@ CSRF\_ENABLED是为了CSRF（跨站请求伪造）保护。 SECRET\_KEY用来生
 ```
 
 - 视图函数中获取表单数据验证登录逻辑：
-
 ```python
 @app.route('/demo1', methods=["get", "post"])
 def demo1():
