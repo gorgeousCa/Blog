@@ -96,7 +96,6 @@ def demo1():
 ```
 
 > CSRF:跨站请求伪造，后续会讲到
-
 #### 模板页面：
 
 ```html
@@ -119,7 +118,6 @@ from flask_wtf import FlaskForm
 from wtforms import SubmitField,StringField,PasswordField
 #导入wtf扩展提供的表单验证器
 from wtforms.validators import DataRequired,EqualTo
-
 
 app = Flask(__name__)
 app.config['SECRET_KEY']='SECRET_KEY'
