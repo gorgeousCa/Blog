@@ -99,7 +99,6 @@ def demo1():
     {{ form.submit }}
 </form>
 ```
-
 #### 视图函数： {#视图函数：}
 
 ```python
@@ -119,7 +118,6 @@ class RegisterForm(FlaskForm):
     password = PasswordField("密码：", validators=[DataRequired("请输入密码")])
     password2 = PasswordField("确认密码：", validators=[DataRequired("请输入确认密码"), EqualTo("password", "两次密码不一致")])
     submit = SubmitField("注册")
-
 #定义根路由视图函数，生成表单对象，获取表单数据，进行表单数据验证
 @app.route('/demo2', methods=["get", "post"])
 def demo2():
