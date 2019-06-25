@@ -75,7 +75,6 @@ def demo1():
 ### 使用 Flask-WTF 实现表单
 
 - 配置参数，关闭 CSRF 校验
-
 ```python
  app.config['WTF_CSRF_ENABLED'] = False
 ```
