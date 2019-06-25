@@ -4,7 +4,6 @@ Web 表单是 Web 应用程序的基本功能。
 它是HTML页面中负责数据采集的部件。表单有三个部分组成：表单标签、表单域、表单按钮。表单允许用户输入数据，负责HTML页面数据采集，通过表单将用户输入的数据提交给服务器。
 在Flask中，为了处理web表单，我们可以使用 Flask-WTF 扩展，它封装了 WTForms，并且它有验证表单数据的功能
 ## WTForms支持的HTML标准字段
-
 | 字段对象 | 说明 |
 | :--- | :--- |
 | StringField | 文本字段 |
@@ -35,14 +34,10 @@ Web 表单是 Web 应用程序的基本功能。
 | AnyOf | 验证输入值在可选列表中 |
 | NoneOf | 验证输入值不在可选列表中 |
 
-
 使用 Flask-WTF 需要配置参数 SECRET\_KEY。
-
 CSRF\_ENABLED是为了CSRF（跨站请求伪造）保护。 SECRET\_KEY用来生成加密令牌，当CSRF激活的时候，该设置会根据设置的密匙生成加密令牌。
-
 ## 代码验证
 ### 使用 html 自带的表单
-
 - 创建模板文件 `login.html`，在其中直接写form表单：
 ```html
 <form method="post">
@@ -55,7 +50,6 @@ CSRF\_ENABLED是为了CSRF（跨站请求伪造）保护。 SECRET\_KEY用来生
 {% for message in get_flashed_messages() %}
     {{ message }}
 {% endfor %}
-
 ```
 - 视图函数中获取表单数据验证登录逻辑：
 ```python
@@ -79,7 +73,6 @@ def demo1():
 
     return render_template('temp_register.html')	
 ```
-
 ### 使用 Flask-WTF 实现表单
 
 - 配置参数，关闭 CSRF 校验
