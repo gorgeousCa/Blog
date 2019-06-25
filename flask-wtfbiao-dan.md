@@ -33,7 +33,6 @@ Web 表单是 Web 应用程序的基本功能。
 | URL | 验证URL |
 | AnyOf | 验证输入值在可选列表中 |
 | NoneOf | 验证输入值不在可选列表中 |
-
 使用 Flask-WTF 需要配置参数 SECRET\_KEY。
 CSRF\_ENABLED是为了CSRF（跨站请求伪造）保护。 SECRET\_KEY用来生成加密令牌，当CSRF激活的时候，该设置会根据设置的密匙生成加密令牌。
 ## 代码验证
