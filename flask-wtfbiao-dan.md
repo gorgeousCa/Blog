@@ -80,10 +80,8 @@ def demo1():
 ```python
  app.config['WTF_CSRF_ENABLED'] = False
 ```
-
 > CSRF:跨站请求伪造，后续会讲到
 #### 模板页面：
-
 ```html
 <form method="post">
     {{ form.username.label }} {{ form.username }}<br/>
@@ -95,7 +93,6 @@ def demo1():
 #### 视图函数： {#视图函数：}
 
 ```python
-
 from flask import Flask,render_template, flash
 #导入wtf扩展的表单类
 from flask_wtf import FlaskForm
