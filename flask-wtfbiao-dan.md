@@ -45,7 +45,6 @@ CSRF\_ENABLED是为了CSRF（跨站请求伪造）保护。 SECRET\_KEY用来生
     <label>确认密码：</label><input type="password" name="password2" placeholder="请输入确认密码"><br/>
     <input type="submit" value="注册">
 </form>
-
 {% for message in get_flashed_messages() %}
     {{ message }}
 {% endfor %}
