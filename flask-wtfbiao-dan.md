@@ -88,7 +88,6 @@ def demo1():
 </form>
 ```
 #### 视图函数： {#视图函数：}
-
 ```python
 from flask import Flask,render_template, flash
 #导入wtf扩展的表单类
