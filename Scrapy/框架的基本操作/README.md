@@ -46,6 +46,7 @@ Scrapy 使用了 Twisted异步网络库来处理网络通讯。整体架构大�
 - scrapy crawl 爬虫应用名称  
    运行单独爬虫应用
 ### 创建简单项目
+   
    - 在终端下输入  
   `scrapy startproject myfrsit`   
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E6%A1%86%E6%9E%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/8.PNG)  
