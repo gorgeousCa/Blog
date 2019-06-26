@@ -30,6 +30,7 @@ Scrapy 使用了 Twisted异步网络库来处理网络通讯。整体架构大�
 - 解析出实体（Item）,则交给实体管道进行进一步的处理
 - 解析出的是链接（URL）,则把URL交给调度器等待抓取
 ### 基本命令
+
 - scrapy startproject 项目名称
    在当前目录中创建中创建一个项目文件（类似于Django）
 - scrapy genspider [-t template] <name> <domain>
