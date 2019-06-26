@@ -22,6 +22,7 @@ Scrapy 使用了 Twisted异步网络库来处理网络通讯。整体架构大�
 - 调度中间件(Scheduler Middewares)
 介于Scrapy引擎和调度之间的中间件，从Scrapy引擎发送到调度的请求和响应。
 ### Scrapy运行流程大概如下：
+
 - 引擎从调度器中取出一个链接(URL)用于接下来的抓取
 - 引擎把URL封装成一个请求(Request)传给下载器
 - 下载器把资源下载下来，并封装成应答包(Response)
