@@ -11,3 +11,6 @@
 ![Image text](https://github.com/gorgeousCa/Dayup/blob/master/Python%E7%AC%94%E8%AE%B0/2019030317.png)
 - 接下来就可以执行该程序，进入其界面开始新增数据库和数据表了。
 ![Image text](https://github.com/gorgeousCa/Dayup/blob/master/Python%E7%AC%94%E8%AE%B0/20190303142307.png)
+
+
+
