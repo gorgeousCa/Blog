@@ -33,7 +33,6 @@ Usage: pyspider [OPTIONS] COMMAND [ARGS]...
   --help                   Show this message and exit.
   
   ```
-  
 - 这里我们直接执行如下命令启动,更复杂的命令参看文档
 `pyspider  --data-path  数据存放路径  all`
 
