@@ -3,8 +3,6 @@
 官网下载需要的版本 https://docs.djangoproject.com/en/1.11/
 选择想要的版本。
 
-
-
 安装Django，这里是重点，需要使用命令行进行安装。
 ### 步骤：
 - 命令行安装Django 
@@ -16,7 +14,5 @@
 添加pathC:\Users\422221\AppData\Local\Programs\Python\Python35-32\Lib\site-packages\Django-1.11.5-py3.5.egg\django；C:\Users\422221\AppData\Local\Programs\Python\Python35-32\Scripts（其实就是安装的django目录，和python下的scripts目录）
 - 到这里就大功告成了，接下来验证一下，有没有安装成功呢
 　　通过命令行进入到从官网下载并解压的django文件夹下
-
    具体：cd D:\学习\Django\Django-1.11.5\Django-1.11.5 
-
    回车python 可以看到 python的版本
