@@ -26,7 +26,6 @@ Flask 中定义路由最简单的方式是使用程序提供的 app.route 修饰
 尖括号中的内容是动态部分，任何能匹配静态部分的 URL 都会映射到这个路由上。  
 - 服务启动
 应用程序实例有一个run方法用于启动Flask集成的web服务：
-
 	if __name__ == '__main__':
  	app.run(debug=True)
 __name__ == '__main__'在此处使用是用于确保web服务已经启动当脚本被立即执行。当脚本被另一个脚本导入，它被看做父脚本将启动不同的服务，所以app.run()调用会被跳过。
@@ -54,7 +53,6 @@ __name__ == '__main__'在此处使用是用于确保web服务已经启动当脚�
 ![Image text](https://github.com/gorgeousCa/Dayup/blob/master/Python%20Flask%20Web%E6%A1%86%E6%9E%B6/flaskr.png)  
 如果上面的例子继续写下去的时候，我们或许会在视图views中引入models文件以操作数据，在models文件中引入manage文件中的db以定义类和字段，然后在manage文件中引入views文件以注册蓝图（register_blueprint），这样就出现了a引入b，b引入c，c引入a的问题，就会报错，
 解决办法就是另外创建一个ext.py文件，专门用来创建db，代码如下：
-	
      from flask_sqlalchemy import SQLAlchemy
      db = SQLAlchemy()
 注意：此时先不讲app传入
