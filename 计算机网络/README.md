@@ -31,3 +31,4 @@ Cisco二层交换机是不能实现vlan间通讯的，这就需要三层路由�
 ![image1](https://github.com/gorgeousCa/Dayup/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/4.png)
 ![image1](https://github.com/gorgeousCa/Dayup/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/5.png)
 ![image1](https://github.com/gorgeousCa/Dayup/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/6.png)
+- 三层交换机的配置
