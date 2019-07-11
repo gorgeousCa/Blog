@@ -10,7 +10,19 @@
 如上图所示，表示成功访问网页。
 #### 使用scrapy shell
   - Scrapy shell 可以看成是在一个Python终端基础上添加了扩充功能的Python控制台程序，这些扩充包括若干函数和内置对象。  
-  (1)Scrapy shell提供的功能函数有三种：
+  (1)Scrapy shell提供的功能函数有三种：  
+        shelp() - 打印可用对象及快捷命令的帮助列表
+        fetch(request_or_url) - 根据给定的请求(request)或URL获取一个新的response，并更新相关的对象
+        view(response) - 在本机的浏览器打开给定的response。 其会在response的body中添加一个 <base> tag ，使得外部链接(例如图片及css)能正确显示。 注意，该操作会在本地创建一个临时文件，且该文件不会被自动删除。
+  （2)内置对象
+        crawler - 当前 Crawler 对象.
+        spider - 处理URL的spider。 对当前URL没有处理的Spider时则为一个 Spider 对象。
+        request - 最近获取到的页面的 Request 对象。 您可以使用 replace() 修改该request。或者 使用 fetch 快捷方式来获取新的request。
+        response - 包含最近获取到的页面的 Response 对象。
+        sel - 根据最近获取到的response构建的 Selector 对象。
+        settings - 当前的 Scrapy settings
+
+
   
  
   
