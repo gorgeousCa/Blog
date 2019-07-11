@@ -9,8 +9,8 @@
   ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Scrapy/%E7%BB%88%E7%AB%AF%E4%B8%8E%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6/14.PNG)  
 如上图所示，表示成功访问网页。
 #### 使用scrapy shell
-  - Scrapy shell 可以看成是在一个Python终端基础上添加了扩充功能的Pythonk控制台程序，这些扩充包括若干函数和内置对象。
-  
+  - Scrapy shell 可以看成是在一个Python终端基础上添加了扩充功能的Python控制台程序，这些扩充包括若干函数和内置对象。  
+  (1)Scrapy shell提供的功能函数有三种：
   
  
   
