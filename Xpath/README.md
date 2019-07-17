@@ -1,4 +1,4 @@
-# Python 爬虫子xpath 的基本使用
+# Python爬虫XPath 的基本使用
 ## 简介
 XPath 是一门在 XML 文档中查找信息的语言。XPath 可用来在 XML 文档中对元素和属性进行遍历。XPath 是 W3C XSLT 标准的主要元素，并且 XQuery 和 XPointer 都构建于 XPath 表达之上。
 - XPath 使用路径表达式在 XML 文档中进行导航  
