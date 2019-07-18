@@ -92,5 +92,5 @@ step/step/...
 |descendant::book|	选取当前节点的所有 book 后代。|
 |ancestor::book	|选择当前节点的所有 book 先辈。|
 |ancestor-or-self::book|	选取当前节点的所有 book 先辈以及当前节点（如果此节点是 book 节点)|
-|child::* child::price	|选取当前节点的所有 price 孙节点。| 
+|child::* /child::price	|选取当前节点的所有 price 孙节点。| 
 
