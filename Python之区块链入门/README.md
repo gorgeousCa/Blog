@@ -25,19 +25,17 @@
      
    # 计算区块的哈希值
         
-  message = hashlib.sha256()
+        message = hashlib.sha256()
         message.update(self.identifier.encode('utf-8'))
         message.update(str(nonce).encode('utf-8'))
         message.update(str(self.data).encode('utf-8'))
         message.update(str(self.previous_hash).encode('utf-8'))
 
-   return message.hexdigest()
+        return message.hexdigest()
 
   def hash_is_valid(self, the_hash):
-    
   # 校验区块哈希值有否有效
-     
- return the_hash.startswith('0000')
+      return the_hash.startswith('0000')
 
   def __repr__(self):
         return 'Block<Hash: {}, Nonce: {}>'.format(self.hash(), self.nonce)
