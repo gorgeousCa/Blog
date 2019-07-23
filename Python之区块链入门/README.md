@@ -16,10 +16,10 @@
 
    class Block(object):
        def __init__(self, data=None, previous_hash=None):
-        self.identifier = uuid.uuid4().hex   # 产生唯一标示
-        self.nonce = None                    # nonce值
-        self.data = data                     # 区块内容
-        self.previous_hash = previous_hash   # 父节点哈希值
+           self.identifier = uuid.uuid4().hex   # 产生唯一标示
+           self.nonce = None                    # nonce值
+           self.data = data                     # 区块内容
+           self.previous_hash = previous_hash   # 父节点哈希值
         
    def hash(self, nonce=None):
      
