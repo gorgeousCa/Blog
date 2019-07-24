@@ -41,5 +41,6 @@
         return 'Block<Hash: {}, Nonce: {}>'.format(self.hash(), self.nonce)
   ```
 以上就是一个区块结构，这里实现的是一个简化版，没有完全对应比特币中的区块。这里的区块包含一个唯一标识符、父节点的哈希值、nonce值和该区块的内容字段。可以看到一个区块的哈希值必须满足一定的条件才是有效的，比如以0000开始。下面对这个区块结构进行初始化。
+![block](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/block.PN)
+以上一个区块虽然创建完成，但其哈希值不是有效的
 
-![block](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/block.PN
