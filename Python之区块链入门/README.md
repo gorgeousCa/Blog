@@ -92,9 +92,10 @@
 
 ![chain](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/chain.PNG)
 
-# 添加更多的区块
+## 添加更多的区块
 
-```for i in range(6):
+```
+    for i in range(6):
     new_block = Block(i)
     new_block.mine()
     chain.add_block(new_block)
