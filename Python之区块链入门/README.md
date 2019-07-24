@@ -46,7 +46,8 @@
 ![valild](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/valid.PNG)  
 
 下面添加一个mine函数用来得到一个合适的nonce值:  
-     ``` def mine(self):  
+     ``` 
+     def mine(self):  
         # 初始化nonce为0  
         cur_nonce = self.nonce or 0  
         # 循环直到生成一个有效的哈希值  
@@ -57,6 +58,7 @@
                 break                          # 并退出  
             else:  
                 cur_nonce += 1   # 若当前哈希值无效，更新nonce值，进行加1操作  
+                
                 ```  
                 
     
