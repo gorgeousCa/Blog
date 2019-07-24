@@ -63,3 +63,44 @@
 ![restart](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/restart.PNG)    
 至此，第一个有效的区块生成完成
 ## 定义区块链结构
+```class BlockChain(object):
+    def __init__(self):
+        self.head = None   # 指向最新的一个区块
+        self.blocks = {}   # 包含所有区块的一个字典
+
+   
+  
+  def add_block(self, new_block):
+        previous_hash = self.head.hash(self.head.nonce) if self.head else None
+        new_block.previous_hash = previous_hash
+
+   self.blocks[new_block.identifier] = {
+            'block': new_block,
+            'previous_hash': previous_hash,
+            'previous': self.head,
+        }
+        self.head = new_block
+
+  def __repr__(self):
+        num_existing_blocks = len(self.blocks)
+        return 'Blockchain<{} Blocks, Head: {}>'.format(
+            num_existing_blocks,
+            self.head.identifier if self.head else None
+        )
+        
+```
+
+![chain](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/chain.PNG)
+
+# 添加更多的区块
+
+```for i in range(6):
+    new_block = Block(i)
+    new_block.mine()
+    chain.add_block(new_block)
+```    
+打印
+chain
+以上就是一个简单区块链，当区块链中一个区块被改变后，这个区块的哈希就会改变，从而影响到这块区块之后的区块，致使这个区块链不再有效。
+
+
