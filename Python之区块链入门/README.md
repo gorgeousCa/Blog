@@ -95,7 +95,7 @@
 ## 添加更多的区块
 
 ```
-    for i in range(6):
+for i in range(6):
     new_block = Block(i)
     new_block.mine()
     chain.add_block(new_block)
