@@ -61,4 +61,5 @@
   ```  
                 
 ![restart](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/restart.PNG)    
-                
+至此，第一个有效的区块生成完成
+## 定义区块链结构
