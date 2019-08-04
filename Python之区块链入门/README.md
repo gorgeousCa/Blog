@@ -1,7 +1,6 @@
 # Python 区块链入门
 区块链(BlockChain)由一个共享的，容错的分布式数据库和多节点网络组成。  
 简单来说，区块链就是把加密数据（区块）按照时间顺序进行叠加（链）生成的永久、不可逆向修改的记录。具体来说，它区块链是由一串使用密码学方法产生的数据块组成的，每一个区块都包含了上一个区块的哈希值（hash），从创始区块（genesis block）开始连接到当前区块，形成块链。每一个区块都确保按照时间顺序在上一个区块之后产生，否则前一个区块的哈希值是未知的。它是比特币的一个重要概念。  
-
 ## 特点
    - 去中心化:区块链不依赖于某个中心节点，而是依赖于分布式的各个节点。  
    - 无须信任系统:区块链中基于密码学算法，数据需要网络内其他用户的批准，所以不需要一套第三方中介结构或信任机构背书。  
@@ -44,7 +43,6 @@
 ![block](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/block.PNG)  
 以上一个区块虽然创建完成，但其哈希值不是有效的  
 ![valild](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/valid.PNG)  
-
 下面添加一个mine函数用来得到一个合适的nonce值:  
  ``` 
      def mine(self):  
@@ -58,8 +56,7 @@
                 break                          # 并退出  
             else:  
                 cur_nonce += 1   # 若当前哈希值无效，更新nonce值，进行加1操作           
-  ```  
-                
+  ```              
 ![restart](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/restart.PNG)    
 至此，第一个有效的区块生成完成
 ## 定义区块链结构
