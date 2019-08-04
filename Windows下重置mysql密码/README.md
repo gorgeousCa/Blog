@@ -5,7 +5,7 @@
 如下图所示：    
 ![image text](https://github.com/gorgeousCa/Dayup/blob/master/Windows%E4%B8%8B%E9%87%8D%E7%BD%AEmysql%E5%AF%86%E7%A0%81/mysql1.PNG)
 
-### *这里我主要讲一下 mysql 用户密码的重置步骤。*
+### 这里我主要讲一下 mysql 用户密码的重置步骤
 
 - 停止 MySQL 服务
 快捷键 windows + R ；  
