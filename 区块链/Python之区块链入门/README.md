@@ -60,29 +60,30 @@
 ![restart](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/restart.PNG)    
 至此，第一个有效的区块生成完成
 ## 定义区块链结构
-```class BlockChain(object):
-    def __init__(self):
-        self.head = None   # 指向最新的一个区块
-        self.blocks = {}   # 包含所有区块的一个字典
+```
+class BlockChain(object):
+      def __init__(self):
+          self.head = None   # 指向最新的一个区块
+          self.blocks = {}   # 包含所有区块的一个字典
 
    
   
-  def add_block(self, new_block):
-        previous_hash = self.head.hash(self.head.nonce) if self.head else None
-        new_block.previous_hash = previous_hash
+       def add_block(self, new_block):
+            previous_hash = self.head.hash(self.head.nonce) if self.head else None
+            new_block.previous_hash = previous_hash
 
-   self.blocks[new_block.identifier] = {
-            'block': new_block,
-            'previous_hash': previous_hash,
-            'previous': self.head,
+            self.blocks[new_block.identifier] = {
+                 'block': new_block,
+                 'previous_hash': previous_hash,
+                 'previous': self.head,
         }
         self.head = new_block
 
-  def __repr__(self):
-        num_existing_blocks = len(self.blocks)
-        return 'Blockchain<{} Blocks, Head: {}>'.format(
-            num_existing_blocks,
-            self.head.identifier if self.head else None
+        def __repr__(self):
+            num_existing_blocks = len(self.blocks)
+            return 'Blockchain<{} Blocks, Head: {}>'.format(
+                    num_existing_blocks,
+                    self.head.identifier if self.head else None
         )
         
 ```
