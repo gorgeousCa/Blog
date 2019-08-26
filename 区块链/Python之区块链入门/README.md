@@ -20,9 +20,9 @@
            self.data = data                     # 区块内容
            self.previous_hash = previous_hash   # 父节点哈希值
         
-   def hash(self, nonce=None):
+       def hash(self, nonce=None):
      
-   # 计算区块的哈希值
+       # 计算区块的哈希值
         
         message = hashlib.sha256()
         message.update(self.identifier.encode('utf-8'))
@@ -32,12 +32,12 @@
 
         return message.hexdigest()
 
-  def hash_is_valid(self, the_hash):
-  # 校验区块哈希值有否有效
-      return the_hash.startswith('0000')
+       def hash_is_valid(self, the_hash):
+       # 校验区块哈希值有否有效
+           return the_hash.startswith('0000')
 
-  def __repr__(self):
-        return 'Block<Hash: {}, Nonce: {}>'.format(self.hash(), self.nonce)
+       def __repr__(self):
+           return 'Block<Hash: {}, Nonce: {}>'.format(self.hash(), self.nonce)
   ```
 以上就是一个区块结构，这里实现的是一个简化版，没有完全对应比特币中的区块。这里的区块包含一个唯一标识符、父节点的哈希值、nonce值和该区块的内容字段。可以看到一个区块的哈希值必须满足一定的条件才是有效的，比如以0000开始。下面对这个区块结构进行初始化。  
 ![block](https://github.com/gorgeousCa/Dayup/blob/master/Python%E4%B9%8B%E5%8C%BA%E5%9D%97%E9%93%BE%E5%85%A5%E9%97%A8/block.PNG)  
